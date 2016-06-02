@@ -633,16 +633,16 @@ h1.abbr {
     border: 1px solid #EEE;
 }
 .program1 {
-    background: url("images/twitter.png") no-repeat 95px 20px;
+    background: url("../images/twitter.png") no-repeat 95px 20px;
 }
 .program2 {
-    background: url("images/facebook.png") no-repeat 95px 20px;
+    background: url("../images/facebook.png") no-repeat 95px 20px;
 }
 .program3 {
-    background: url("images/livejournal.png") no-repeat 95px 20px;
+    background: url("../images/livejournal.png") no-repeat 95px 20px;
 }
 .program4 {
-    background: url("images/google.png") no-repeat 95px 20px;
+    background: url("../images/google.png") no-repeat 95px 20px;
 }
 
 .program1 h4, .program2 h4, .program3 h4, .program4 h4 {
