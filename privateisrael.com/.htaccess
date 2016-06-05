@@ -4,10 +4,10 @@ RewriteCond %{HTTP:Accept-Language} ^ru [NC]
 RewriteRule ^$ http://privateisrael.com/ru/ [L,R=301]
 
 RewriteCond %{HTTP:Accept-Language} ^en [NC]
-RewriteRule ^$ http://privateisrael.com/ru/ [L,R=301]
+RewriteRule ^$ http://privateisrael.com/en/ [L,R=301]
 
 RewriteCond %{HTTP:Accept-Language} ^he [NC]
-RewriteRule ^$ http://privateisrael.com/ru/ [L,R=301]
+RewriteRule ^$ http://privateisrael.com/he/ [L,R=301]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
