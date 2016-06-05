@@ -261,14 +261,14 @@
 
 			<!-- Admissions-Starts-Here -->
         	<div class="admissions slideanim" id="admissions">
-                <h3>Price list for 2016</h3>
+                <h3>Our rental cars</h3>
                 <p>В 2016 году как и в предыдущие года мы предлагаем самые выгодные условия на аренду прокат автомобиля в Израиле</p>
 
                 <!-- Add a PDF file and give its link here if required -->
                 <div class="pdf">
                 	<img src="images/fleet.jpg" alt="alumnus">
                 	<br />
-                	<a href="#"><sup>[PDF]</sup>Расценки</a>
+                	
                 	
                 	
                 	
@@ -286,7 +286,18 @@
 
 			<!-- Alumnus-Starts-Here -->
     		<div class="alumnus slideanim" id="alumnus">
-                <h3>Автомобили в прокате</h3>
+                <h3>Price list for 2016</h3>
+                The Visa Permit must be presented at the rental desk for VAT to be waived <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br />
+					 Car models are for guidance only and similar car models may be supplied <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br />
+					 Accepted credit cards: Visa, MasterCard, Amex, Diners <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br />
+					 SuperCDW - reduce the renter’s responsibility to Zero in case of damage to the vehicle <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+					 SuperTP - reduce the renter’s responsibility to Zero in case of theft of the rental vehicle <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+					 Reservation fees waived<br>
+					 Special rates and promotions<br>
+					 Simple reservation process with immediate confirmation for most car groups<br>
+					 A confirmation for special vehicles will be sent to your email within one business day<br>
+					 <br><br>
+					 <hr />
                 <div class="alumnus-grid">
 	                <div class="col-md-4 col-sm-4 a1">
 	                    <h4>Category B</h4>
@@ -299,13 +310,11 @@
 							  1-2 days - 250km/day <br />		                    
 	                    3+ days - Unlimited km<br />
 	                    30 days - 4000km/month <br />
-	                    SuperCDW (reduce the renter’s responsibility to Zero in case of damage to the vehicle) - 10$/day<br />
-	                    SuperTP (reduce the renter’s responsibility to Zero in case of theft of the rental vehicle) - 5$/day <br />
-	                    The Visa Permit must be presented at the rental desk for VAT to be waived<br />
-							  Car models are for guidance only and similar car models may be supplied<br />
-							  Accepted credit cards: Visa, MasterCard, Amex, Diners<br />
-							  Minimum age required is 21 (Additional fee applies) + Drivers License valid for at least one year<br />
-							  <a href="Rental-Conditions-Thrifty-Israel.html">Please read Rental Conditions</a><br>
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
 							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
 							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
 							  
@@ -313,216 +322,342 @@
 	                <div class="col-md-4 col-sm-4 a1">
 	                    <h4>Category C</h4>
 	                    <img src="images/catC.jpg" alt="alumnus">
-	                    <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+	                    <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
 	                </div>             
 	                <div class="col-md-4 col-sm-4 a1">
                             <h4>Category D</h4>
                             <img src="images/catD.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели                        
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>                        
                         </div>
                         <div class="clearfix"></div>
+                        <hr align="center" width="100%">
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category E</h4>
                             <img src="images/catE.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category F</h4>
                             <img src="images/catF.jpg" alt="alumnus">
-                           <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                           <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>                       
                        
 								<div class="col-md-4 col-sm-4 a1">
                             <h4>Category I</h4>
                             <img src="images/catI.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         <div class="clearfix"></div>
+                        <hr align="center" width="100%">
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category H</h4>
                             <img src="images/catH.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category M</h4>
                             <img src="images/catM.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>                       
                         
 								<div class="col-md-4 col-sm-4 a1">
                             <h4>Category MH</h4>
                             <img src="images/catMH.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         <div class="clearfix"></div>
+                        <hr align="center" width="100%">
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category R</h4>
                             <img src="images/catR.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category P</h4>
                             <img src="images/catP.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         
                         
 								<div class="col-md-4 col-sm-4 a1">
                             <h4>Category W</h4>
                             <img src="images/catW.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         <div class="clearfix"></div>
+                        <hr align="center" width="100%">
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category U</h4>
                             <img src="images/catU.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         
 								<div class="col-md-4 col-sm-4 a1">
-                            <h4>категория J</h4>
+                            <h4>Category J</h4>
                             <img src="images/catJ.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category V</h4>
                             <img src="images/catV.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
+                        
+                        <div class="clearfix"></div>
+                        <hr align="center" width="100%">
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category Y</h4>
                             <img src="images/catY.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                                                 
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category V8</h4>
                             <img src="images/catV8.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         <div class="col-md-4 col-sm-4 a1">
                             <h4>Category Z</h4>
                             <img src="images/catZ.jpg" alt="alumnus">
-                            <p>Коробка передач: автоматическая. <br />
-                            Intermediate, 4-5 Door <br />
-									 4 Passengers <br />
-									 1 Large Suitcase, 2 Small Suitcase <br />
-									 Air Conditioning <br />
-									 Доступна в: Аэропорт Бен Гурион 7/24, Тель-Авив набережная, Эйлат, Иерусалим, Нетания, Ашдод, Беэр Шева, Бней Брак, Нес-Циона, Тверия, 
-									 Герцлия, Хайфа, Тель-Авив центр, Афула, Петах Тиква, Бейт Шемеш, Холон, Кфар Саба, Кирьят Шмоне, Рховот, Ришон Ле Цион</p>
-									 фотография только для иллюстрации поставщик услуги не гарантирует получение при заказе автомобиля именно этой модели
+                            <b>Rate:</b> (Low/High Season)<br />
+	                    1-6 days - 25$/36$/day <br />  
+	                    7-29 days - 24$/36$/day <br />
+	                    30+ days - 690$/790$/month <br />
+	                    <b>Mileage:</b><br />
+							  1-2 days - 250km/day <br />		                    
+	                    3+ days - Unlimited km<br />
+	                    30 days - 4000km/month <br />
+	                    SuperCDW - 10$/day<br />
+	                    SuperTP - 5$/day <br />
+	                    Minimum age required is 21 (Additional fee applies)<br>
+	                    Drivers License valid for at least one year<br />
+							  <a href="Rental-Conditions-Thrifty-Israel.html">Rental Conditions</a><br>
+							  <a href="Locations-Thrifty-Israel.html">Thrifty Locations</a><br>
+							  <a href="mailto:office@vastama.com?subject=Price%20Request%20for%20Cat.%20B">Press here to send an email</a>
                         </div>
                         <div class="clearfix"></div>
             	</div>
@@ -570,25 +705,32 @@
                 <p>We have taken up some Social Services done by our students in the slums and backward regions so that they can not only excel in education, but also as a good human being in the society.</p>
                 <div class="col-md-6 col-sm-6 s1">
                     <div class="services-info1">
-                        <h4>Навигатор</h4>
+                        <h4>GPS</h4>
                         <p>Навигатор - услуга предназначается для клиентов кто желает путешествовать по Израилю под управлением навигатора, услуга платная - 10 долларов в день</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 s1">
                     <div class="services-info2">
-                        <h4>Детское сидение в машину</h4>
+                        <h4>Baby/Child Seat</h4>
                         <p>Вы можете заказать детское сидение или бустер в машину, услуга платная - стоимость 5 долларов в день</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 s1">
                     <div class="services-info3">
-                        <h4>Услуги помощи на дороге</h4>
+                        <h4>ROADSAFE Assistance</h4>
                         <p>Помощь на дороге - в случае поломки автомобиля, прокола колеса и т.д. помощь прибудет к вм в течении х часов</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-sm-6 s1">
+                    <div class="services-info4">
+                        <h4>Additional Driver</h4>
+                        <p>Дополнительный водитель - услуга платная -2 доллара в день, для наших клиентов при заказе 7+ дней дополнительный водитель бесплатно</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 s1">
                     <div class="services-info4">
-                        <h4>Дополнительный водитель</h4>
+                        <h4>Underage Driver</h4>
                         <p>Дополнительный водитель - услуга платная -2 доллара в день, для наших клиентов при заказе 7+ дней дополнительный водитель бесплатно</p>
                     </div>
                 </div>
@@ -611,6 +753,7 @@
 								</div>
 			                    <h6>Аэропорт Бен Гурион</h6>
 			                    <p>But I must explain to you how all this mistaken idea of denouncing</p>
+			                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.1059164659205!2d34.829988315164805!3d32.09342298118372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4a2708204011%3A0x82adb5e939484dce!2sMenachem+Begin+71%2C+Bnei+Brak!5e0!3m2!1sru!2sil!4v1465136116078" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                    		</div>
 					</div>
 					<div class="col-md-3 col-sm-3 team-top team-in">
