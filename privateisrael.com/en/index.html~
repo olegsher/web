@@ -91,7 +91,7 @@
 
 	            </div>
 	            
-	            <!-- Navbar-Collapse -->
+	            <!-- Navbar-Collapse 
 	            <div id="navbar" class="navbar-collapse collapse">
 
 	                <ul class="nav navbar-nav navbar-right">
@@ -113,12 +113,12 @@
 					                <li><a href="#events" class="scroll">Events</a></li>
 				                </ul>
 		                </li>
-		               //Dropdown -->
+		               //Dropdown 
 
 					    <li><a href="#news" class="scroll">News</a></li>
 		                <li><a href="#contact" class="scroll">Contact</a></li>
 
-		                <!-- Login-Button -->
+		                <!-- Login-Button 
 		                <li>
 			                <div class="login-pop">
 				                <div id="loginpop">
@@ -144,9 +144,9 @@
 			                </div>
 			                <script src="js/menu_jquery.js"></script>
 		                </li>
-		                <!-- //Login-Button -->
+		                <!-- //Login-Button 
 
-		                <!-- Signup-Button -->
+		                <!-- Signup-Button 
 		                <li>
 			                <div class="login-pop">
 				                <div id="loginpop">
@@ -178,11 +178,11 @@
 			                </div>
 					        <script src="js/signup_jquery.js"></script>
 		                </li>
-		                <!-- //Signup-Button -->
+		                <!-- //Signup-Button 
 
 	                </ul>
 	            </div>
-	            <!-- //Navbar-Collapse -->
+	            <!-- //Navbar-Collapse 
 
 	        </div>
 	    </nav>
