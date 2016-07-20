@@ -13,4 +13,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
 
-RewriteRule ^(ru|en|he)/?$ index.php?lang=$1 [QSA,NC,L]
+RewriteRule ^(ru|en|he)/?$ index.html?lang=$1 [QSA,NC,L]
