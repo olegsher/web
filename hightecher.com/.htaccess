@@ -1,0 +1,16 @@
+RewriteEngine On
+
+RewriteCond %{HTTP:Accept-Language} ^ru [NC]
+RewriteRule ^$ http://hightecher.com/ru/ [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteRule ^$ http://hightecher.com/en/ [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^he [NC]
+RewriteRule ^$ http://hightecher.com/he/ [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(ru|en|he)/?$ index.html?lang=$1 [QSA,NC,L]
