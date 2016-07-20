@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://vastama.com/</title>
+  <link>http://vastama.com/</link>
+
+<item>
+     <link>http://vastama.com/</link>
+     <title>Вастама Израиль Туризм Лечение Работа Инвестиции Недвижимость</title>
+     <description>Компания Вастама. Израиль Туризм Лечение Работа Инвестиции Недвижимость</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://vastama.com/ru/vastamatours.html</link>
+     <title>Израиль-туризм,экскурсии,трансферы,туры,билеты,гостиницы</title>
+     <description>Компания Вастама. Израиль - туризм,экскурсии,трансферы,ВИП туры,билеты,гостиницы </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
