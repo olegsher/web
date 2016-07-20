@@ -1,0 +1,6 @@
+DirectoryIndex index.html
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www\.vastama\.com$
+RewriteRule ^/?$ "http\:\/\/vastama\.com\/" [R=301,L]
