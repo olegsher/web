@@ -692,8 +692,8 @@ li.resp-tab-item.resp-tab-active{
   background: #076D90;
 }
 li.resp-tab-item1.resp-tab-active{
-  background:none; !important;
-  color:#333!important;
+  background: none; /* !important */ /* changed by Oleg commented !important */
+  color: #333; /* !important */
 }
 .resp-tab-item:first-child,.resp-tab-item1:first-child{
 	border-left:none;
@@ -811,8 +811,8 @@ li.resp-tab-item1.resp-tab-active span{
     border: 1px solid #ddd;
 }
 li.resp-tab-item:hover {
-        background-color:none;
-    	transition:0.5s all;
+        background-color: #FFF; /* changed by Oleg from none to #FFF */ 
+        transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
@@ -1292,7 +1292,7 @@ h2.second{
 #portfolio p {
   line-height: 1.8em;
   margin: 25px 0 0 0;
-  font-size:1.1
+  font-size: 11px; /* changed by Oleg from 1.1 to 11px */
   color: #ffffff;
   font-weight: 300;
 }
