@@ -510,11 +510,13 @@ nav a:focus {
 }
 h3.tittle{
 	font-size:2.5em;
-	color:#222;
+/*	color:#222;*/
+        color:#80e5ff;
 	margin:0;
 	text-align:center;
 	text-transform:uppercase;
 	font-weight:900;
+        font-family: 'Playfair Display SC', serif;
 }
 .welcome h3 span{
 	color:#E8BB2E;
