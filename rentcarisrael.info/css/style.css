@@ -38,7 +38,8 @@ h3{
 
 p{
 	margin:0;
-	font-family: 'Raleway', sans-serif;
+/*	font-family: 'Raleway', sans-serif;*/
+        font-family: 'Playfair Display SC', serif;
 }
 ul{
 	margin:0;
@@ -85,7 +86,8 @@ label{
 }
 .working-hours-label {
     font-size: 12px;
-	  font-family: 'Montserrat', sans-serif;
+/*	  font-family: 'Montserrat', sans-serif;*/
+          font-family: 'Playfair Display SC', serif;
 	      color: #999;
 }
 .working-hours-time>span {
@@ -93,7 +95,8 @@ label{
     height: 23px;
     font-weight: 400;
     color: #333;
-    font-family: 'Montserrat', sans-serif;
+/*    font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Playfair Display SC', serif;
 }
 .working-hours-date {
     font-size: 12px;
