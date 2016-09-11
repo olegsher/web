@@ -5,7 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Playfair Display SC', serif;
     font-size: 100%;
   	background: #fff;
 }
@@ -38,7 +38,7 @@ h3{
 
 p{
 	margin:0;
-/*	font-family: 'Raleway', sans-serif;*/
+/*	font-family: 'Playfair Display SC', serif;*/
         font-family: 'Playfair Display SC', serif;
 }
 ul{
@@ -257,7 +257,7 @@ nav a:focus {
   padding:0;
   background:none;
   margin: 0 auto;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display SC', serif;
 }
 .top-menu ul li a:hover,.top-menu ul li a.active{
 	color:#CFDC43;
@@ -863,7 +863,7 @@ li.resp-tab-item:hover {
     display: none;
 }
 h2.resp-tab-active span.resp-arrow {
-	    font-family: 'Raleway', sans-serif;
+	    font-family: 'Playfair Display SC', serif;
     border: none;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
