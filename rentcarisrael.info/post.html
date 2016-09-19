@@ -191,7 +191,7 @@
                         <!-- Pick-up date/time start -->
                         Enter a date before 1980-01-01:<br>
 
-                        <input type="date" name="pick-up-date" id="pick-up-date" placeholder="Дата" min="2016-01-02" max="2017-12-31">
+                        <input type="date" name="pick-up-date" id="pick-up-date" placeholder="Дата" min="1899-01-01" max="2017-12-31">
 <!--                                    <input type="text" name="pick-up-date" id="pick-up-date">-->
                                         <select name="pick-up-time" id="pick-up-time">
 					<option value="(время не выбрано)">Время аренды автомобиля</option>
@@ -306,5 +306,19 @@
                         <textarea name="message" placeholder="Your message"></textarea> <br />
                         <input type="submit" value="Send">
   </form> 
+        
+<script type="text/javascript">
+var d1 = new Date();
+var y1= d1.getFullYear();
+var m1 = d1.getMonth()+1;
+if(m1<10)
+    m1="0"+m1;
+var dt1 = d1.getDate();
+if(dt1<10)
+dt1 = "0"+dt1;
+var d2 = y1+"-"+m1+"-"+dt1+1;
+document.getElementById('pick-up-date').value=d2+1;
+document.getElementById('drop-off-date').value=d2+2;
+</script>
     </body>
 </html>
