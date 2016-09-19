@@ -19,6 +19,18 @@
 
 <link href="css/_font-awesome.css" rel="stylesheet">
 <link href="css/form.css" rel="stylesheet">
+<style type="text/css">
+ thumb {
+    width:150px;
+    height:150px;
+    background-position:center center;
+    overflow:hidden;
+    border:1px solid black;
+
+   background-image: attr(data-imagesrc url);
+}
+</style>
+
 </head>
     
     <body> 
@@ -26,134 +38,64 @@
 
 <form id="contactform" action="//formspree.io/rentcar@vastama.com" method="POST">
     <input type="text" name="First_name" placeholder="Your First name">
-    <input type="text" name="Last_name" placeholder="Your Last name">
-    <input type="email" name="_replyto" placeholder="Your email">
-    <input type="text" name="phone" placeholder="Your contact phone">
+    <input type="text" name="Last_name" placeholder="Your Last name"> <br />
+    <input type="email" name="replayto" placeholder="Your email">
+    <input type="text" name="phone" placeholder="Your contact phone"> <br />
     <br /> 
-    
-    
-    
-
-        
-        
-        <!-- Pick-up location start -->
-                        
-<!--                                 <input type="text" name="pick-up-location" id="pick-up-location"> -->
-								<select name="pick-up-location" id="pick-up-location">
-									<option value="">Выберите место аренды автомобиля</option>
-									<option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
-									<option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
-									<option value="Тель Авив, ул. ха-Масгер, 9">Тель Авив, ул. ха-Масгер, 9</option>
-									<option value="Иерусалим, ул. Кинг Давид, 19">Иерусалим, ул. Кинг Давид, 19</option>
-									<option value="Хайфа, шдерот ха-Гистадрут, 88">Хайфа, шдерот ха-Гистадрут, 88</option>
-									<option value="Нетания, ул. Усишкин, 1">Нетания, ул. Усишкин, 1</option>
-									<option value="Тверия, ул. ха-Ярден, 71">Тверия, ул. ха-Ярден, 71</option>
-									<option value="Эйлат, ул. Шешет ха-Ямим, 3">Эйлат, ул. Шешет ха-Ямим, 3</option>								
-									<option value="Афула, ул. Менахем Бегин, 70">Афула, ул. Менахем Бегин, 70</option>
-									<option value="Ашдод, ул. ха-Оргим, 7">Ашдод, ул. ха-Оргим, 7</option>
-									<option value="Беэр Шева, дерех Хеврон, 129">Беэр Шева, дерех Хеврон, 129</option>
-									<option value="Бейт Шемеш, ул. Нахалат Зоар, 10">Бейт Шемеш, ул. Нахалат Зоар, 10</option>
-									<option value="Бней Брак, ул. Каханман, 106">Бней Брак, ул. Каханман, 106</option>
-									<option value="Бней Брак, ул. Мивца Кадош, 64">Бней Брак, ул. Мивца Кадош, 64</option>
-									<option value="Герцелия, ул. Аба Евен, 8">Герцелия, ул. Аба Евен, 8</option>
-									<option value="Холон, ул. ха-Меркава, 73">Холон, ул. ха-Меркава, 73</option>
-									<option value="Кфар Саба, ул. ха-Таяс, 17">Кфар Саба, ул. ха-Таяс, 17</option>								
-									<option value="Кирьят Шмона, ул. ха-Ярден, 1">Кирьят Шмона, ул. ха-Ярден, 1</option>
-									<option value="Нес Циона, ул. ха-Патиш, 10">Нес Циона, ул. ха-Патиш, 10</option>
-									<option value="Петах Тиква, ул. Жаботински, 82">Петах Тиква, ул. Жаботински, 82</option>
-									<option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
-									<option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
-								</select>
-                                 <br />
-                            
-                            <!-- Pick-up location end -->
-                            <!-- Drop-off location start -->
-<!--                            <div class="input-group drop-off">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span> Возврат</span>-->
-<!--                                <input type="text" name="drop-off-location" id="drop-off-location" > -->
-								<select name="drop-off-location" id="drop-off-location">
-									<option value="">Выберите место возврата автомобиля</option>
-									<option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
-									<option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
-									<option value="Тель Авив, ул. ха-Масгер, 9">Тель Авив, ул. ха-Масгер, 9</option>
-									<option value="Иерусалим, ул. Кинг Давид, 19">Иерусалим, ул. Кинг Давид, 19</option>
-									<option value="Хайфа, шдерот ха-Гистадрут, 88">Хайфа, шдерот ха-Гистадрут, 88</option>
-									<option value="Нетания, ул. Усишкин, 1">Нетания, ул. Усишкин, 1</option>
-									<option value="Тверия, ул. ха-Ярден, 71">Тверия, ул. ха-Ярден, 71</option>
-									<option value="Эйлат, ул. Шешет ха-Ямим, 3">Эйлат, ул. Шешет ха-Ямим, 3</option>								
-									<option value="Афула, ул. Менахем Бегин, 70">Афула, ул. Менахем Бегин, 70</option>
-									<option value="Ашдод, ул. ха-Оргим, 7">Ашдод, ул. ха-Оргим, 7</option>
-									<option value="Беэр Шева, дерех Хеврон, 129">Беэр Шева, дерех Хеврон, 129</option>
-									<option value="Бейт Шемеш, ул. Нахалат Зоар, 10">Бейт Шемеш, ул. Нахалат Зоар, 10</option>
-									<option value="Бней Брак, ул. Каханман, 106">Бней Брак, ул. Каханман, 106</option>
-									<option value="Бней Брак, ул. Мивца Кадош, 64">Бней Брак, ул. Мивца Кадош, 64</option>
-									<option value="Герцелия, ул. Аба Евен, 8">Герцелия, ул. Аба Евен, 8</option>
-									<option value="Холон, ул. ха-Меркава, 73">Холон, ул. ха-Меркава, 73</option>
-									<option value="Кфар Саба, ул. ха-Таяс, 17">Кфар Саба, ул. ха-Таяс, 17</option>								
-									<option value="Кирьят Шмона, ул. ха-Ярден, 1">Кирьят Шмона, ул. ха-Ярден, 1</option>
-									<option value="Нес Циона, ул. ха-Патиш, 10">Нес Циона, ул. ха-Патиш, 10</option>
-									<option value="Петах Тиква, ул. Жаботински, 82">Петах Тиква, ул. Жаботински, 82</option>
-									<option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
-									<option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
-								</select>
-<br />
-                          
-                        <!-- Drop-off location end -->
-                            
+                         
                           
                              <!-- Car select start -->
-                        
+                        Выберите автомобиль
 						 <select name="car-select" id="car-select-demo">
-							<option value="0" selected="selected" 
-								data-description="От 10$ до 166$ в сутки">Выберите автомобиль</option>
+							
 							<option value="Cat Q" data-imagesrc="images/smart.jpg"
-								data-description="или похожая в категории - от 10$ в сутки">Smart Fortwo</option>
-							<option value="Cat B" data-imagesrc="images/CatB.jpg"
-								data-description="или похожая в категории - от 10$ в сутки">Suzuki Alto (manual)</option>
-							<option value="Cat C" data-imagesrc="images/CatC.jpg"
-								data-description="или похожая в категории - от 11$ в сутки">Toyota Aygo</option>
+								data-description="или похожая в категории - от 10$ в сутки">Smart Fortwo или похожая в категории - от 10$ в сутки</option>
+							<option  value="Cat B" data-imagesrc="images/catB.jpg"
+								data-description="или похожая в категории - от 10$ в сутки">Suzuki Alto (manual) или похожая в категории - от 10$ в сутки</option>
+							<option value="Cat C" data-imagesrc="images/CatC.jpg" 
+								data-description="или похожая в категории - от 11$ в сутки">Toyota Aygo или похожая в категории - от 11$ в сутки</option>
 							<option value="4" data-imagesrc="images/CatE.jpg"
-								data-description="или похожая в категории - от 12$ в сутки">Hyundai i20</option>
+								data-description="или похожая в категории - от 12$ в сутки">Hyundai i20 или похожая в категории - от 12$ в сутки</option>
 							<option value="5" data-imagesrc="images/ford-fiesta.jpg"
-								data-description="или похожая в категории - от 13$ в сутки">Ford Fiesta</option>
+								data-description="или похожая в категории - от 13$ в сутки">Ford Fiesta или похожая в категории - от 13$ в сутки</option>
 							<option value="1" data-imagesrc="images/CatF.jpg"
-								data-description="или похожая в категории - от 16$ в сутки">Kia Forte</option>
+								data-description="или похожая в категории - от 16$ в сутки">Kia Forte или похожая в категории - от 16$ в сутки</option>
 							<option value="2" data-imagesrc="images/honda-insight.jpg"
-								data-description="или похожая в категории - от 17$ в сутки">Honda Insight Hybrid</option>
+								data-description="или похожая в категории - от 17$ в сутки">Honda Insight Hybrid или похожая в категории - от 17$ в сутки</option>
 							<option value="3" data-imagesrc="images/CatI.jpg"
-								data-description="или похожая в категории - от 18$ в сутки">Mazda 3</option>
+								data-description="или похожая в категории - от 18$ в сутки">Mazda 3 или похожая в категории - от 18$ в сутки</option>
 							<option value="4" data-imagesrc="images/honda-civic.jpg"
-								data-description="или похожая в категории - от 24$ в сутки">Honda Civic</option>
+								data-description="или похожая в категории - от 24$ в сутки">Honda Civic или похожая в категории - от 24$ в сутки</option>
 							<option value="5" data-imagesrc="images/mazda6.jpg"
-								data-description="или похожая в категории - от 31$ в сутки">Mazda 6</option>
+								data-description="или похожая в категории - от 31$ в сутки">Mazda 6 или похожая в категории - от 31$ в сутки</option>
 							<option value="6" data-imagesrc="images/honda-accord.jpg"
-								data-description="или похожая в категории - от 42$ в сутки">Honda Accord Hybrid</option>
+								data-description="или похожая в категории - от 42$ в сутки">Honda Accord Hybrid или похожая в категории - от 42$ в сутки</option>
 							<option value="7" data-imagesrc="images/fiat-dublo.jpg"
-								data-description="или похожая в категории - от 39$ в сутки">Fiat Doblo</option>
+								data-description="или похожая в категории - от 39$ в сутки">Fiat Doblo или похожая в категории - от 39$ в сутки</option>
 							<option value="8" data-imagesrc="images/mazda-5.jpg"
-								data-description="или похожая в категории - от 39$ в сутки">Mazda 5</option>
+								data-description="или похожая в категории - от 39$ в сутки">Mazda 5 или похожая в категории - от 39$ в сутки</option>
 							<option value="9" data-imagesrc="images/nissan-qashqai.jpg"
-								data-description="или похожая в категории - от 42$ в сутки">Nissan Qashqai</option>
+								data-description="или похожая в категории - от 42$ в сутки">Nissan Qashqai или похожая в категории - от 42$ в сутки</option>
 							<option value="10" data-imagesrc="images/chevrolet-malibu.jpg"
-								data-description="или похожая в категории - от 58$ в сутки">Chevrolet Malibu</option>
+								data-description="или похожая в категории - от 58$ в сутки">Chevrolet Malibu или похожая в категории - от 58$ в сутки</option>
 							<option value="11" data-imagesrc="images/ford-galaxy.jpg"
-								data-description="или похожая в категории - от 58$ в сутки">Ford Galaxy V</option>
+								data-description="или похожая в категории - от 58$ в сутки">Ford Galaxy V или похожая в категории - от 58$ в сутки</option>
 							<option value="12" data-imagesrc="images/citroen-jumpy.jpg"
-								data-description="или похожая в категории - от 55$ в сутки">Citroen Jumpy</option>
+								data-description="или похожая в категории - от 55$ в сутки">Citroen Jumpy или похожая в категории - от 55$ в сутки</option>
 							<option value="13" data-imagesrc="images/toyota-siena.jpg"
-								data-description="или похожая в категории - от 83$ в сутки">Toyota Sienna</option>
+								data-description="или похожая в категории - от 83$ в сутки">Toyota Sienna или похожая в категории - от 83$ в сутки</option>
 							<option value="14" data-imagesrc="images/bmw318.jpg"
-								data-description="или похожая в категории - от 83$ в сутки">BMW 318i</option>
+								data-description="или похожая в категории - от 83$ в сутки">BMW 318i или похожая в категории - от 83$ в сутки</option>
 							<option value="15" data-imagesrc="images/buick-lacrosse.jpg"
-								data-description="или похожая в категории - от 79$ в сутки">Buick LaCrosse</option>
+								data-description="или похожая в категории - от 79$ в сутки">Buick LaCrosse или похожая в категории - от 79$ в сутки</option>
 							<option value="16" data-imagesrc="images/hyundai-i800.jpg"
-								data-description="или похожая в категории - от 83$ в сутки">Hyundai i800</option>
+								data-description="или похожая в категории - от 83$ в сутки">Hyundai i800 или похожая в категории - от 83$ в сутки</option>
 							<option value="17" data-imagesrc="images/hyundai-i800.jpg"
-								data-description="или похожая в категории - от 65$ в сутки">Hyundai i800 (manual)</option>
+								data-description="или похожая в категории - от 65$ в сутки">Hyundai i800 (manual) или похожая в категории - от 65$ в сутки</option>
 							<option value="18" data-imagesrc="images/CatW.jpg"
-								data-description="или похожая в категории - от 122$ в сутки">BMW i535</option>
+								data-description="или похожая в категории - от 122$ в сутки">BMW i535 или похожая в категории - от 122$ в сутки</option>
 							<option value="19" data-imagesrc="images/toyota-highlander.jpg"
-								data-description="или похожая в категории - от 166$ в сутки">Toyota Highlander</option>
+								data-description="или похожая в категории - от 166$ в сутки">Toyota Highlander или похожая в категории - от 166$ в сутки</option>
 						</select>
                              <br />
 	<!--
@@ -188,121 +130,68 @@
                         
                         <!-- Car select end -->
                         
-                        <!-- Pick-up date/time start -->
-                        Enter a date before 1980-01-01:<br>
-
-                        <input type="date" name="pick-up-date" id="pick-up-date" placeholder="Дата" min="1899-01-01" max="2017-12-31">
-<!--                                    <input type="text" name="pick-up-date" id="pick-up-date">-->
-                                        <select name="pick-up-time" id="pick-up-time">
-					<option value="(время не выбрано)">Время аренды автомобиля</option>
-                                        <option value="00:00">00:00</option>
-                                        <option value="00:30">00:30</option>
-                                        <option value="01:00">01:00</option>
-                                        <option value="01:30">01:30</option>
-                                        <option value="02:00">02:00</option>
-                                        <option value="02:30">02:30</option>
-                                        <option value="03:00">03:00</option>
-                                        <option value="03:30">03:30</option>
-                                        <option value="04:00">04:00</option>
-                                        <option value="04:30">04:30</option>
-                                        <option value="05:00">05:00</option>
-                                        <option value="05:30">05:30</option>
-                                        <option value="06:00">06:00</option>
-                                        <option value="06:30">06:30</option>
-                                        <option value="07:00">07:00</option>
-                                        <option value="07:30">07:30</option>
-                                        <option value="08:00">08:00</option>
-                                        <option value="08:30">08:30</option>
-                                        <option value="09:00">09:00</option>
-                                        <option value="09:30">09:30</option>
-                                        <option value="10:00">10:00</option>
-                                        <option value="10:30">10:30</option>
-                                        <option value="11:00">11:00</option>
-                                        <option value="11:30">11:30</option>
-                                        <option value="12:00">12:00</option>
-                                        <option value="12:30">12:30</option>
-                                        <option value="13:00">13:00</option>
-                                        <option value="13:30">13:30</option>
-                                        <option value="14:00">14:00</option>
-                                        <option value="14:30">14:30</option>
-                                        <option value="15:00">15:00</option>
-                                        <option value="15:30">15:30</option>
-                                        <option value="16:00">16:00</option>
-                                        <option value="16:30">16:30</option>
-                                        <option value="17:00">17:00</option>
-                                        <option value="17:30">17:30</option>
-                                        <option value="18:00">18:00</option>
-                                        <option value="18:30">18:30</option>
-                                        <option value="19:00">19:00</option>
-                                        <option value="19:30">19:30</option>
-                                        <option value="20:00">20:00</option>
-                                        <option value="20:30">20:30</option>
-                                        <option value="21:00">21:00</option>
-                                        <option value="21:30">21:30</option>
-                                        <option value="22:00">22:00</option>
-                                        <option value="22:30">22:30</option>
-                                        <option value="23:00">23:00</option>
-                                        <option value="23:30">23:30</option>
-                                    </select>
-                        <br />   
+                        <!-- Pick-up date/time start -->  
+                        Сьем Автомобиля <br />
+                        <select name="pick-up-location" id="pick-up-location">
+                            <option value="">Отделение</option>
+                                					<option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
+									<option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
+									<option value="Тель Авив, ул. ха-Масгер, 9">Тель Авив, ул. ха-Масгер, 9</option>
+									<option value="Иерусалим, ул. Кинг Давид, 19">Иерусалим, ул. Кинг Давид, 19</option>
+									<option value="Хайфа, шдерот ха-Гистадрут, 88">Хайфа, шдерот ха-Гистадрут, 88</option>
+									<option value="Нетания, ул. Усишкин, 1">Нетания, ул. Усишкин, 1</option>
+									<option value="Тверия, ул. ха-Ярден, 71">Тверия, ул. ха-Ярден, 71</option>
+									<option value="Эйлат, ул. Шешет ха-Ямим, 3">Эйлат, ул. Шешет ха-Ямим, 3</option>								
+									<option value="Афула, ул. Менахем Бегин, 70">Афула, ул. Менахем Бегин, 70</option>
+									<option value="Ашдод, ул. ха-Оргим, 7">Ашдод, ул. ха-Оргим, 7</option>
+									<option value="Беэр Шева, дерех Хеврон, 129">Беэр Шева, дерех Хеврон, 129</option>
+									<option value="Бейт Шемеш, ул. Нахалат Зоар, 10">Бейт Шемеш, ул. Нахалат Зоар, 10</option>
+									<option value="Бней Брак, ул. Каханман, 106">Бней Брак, ул. Каханман, 106</option>
+									<option value="Бней Брак, ул. Мивца Кадош, 64">Бней Брак, ул. Мивца Кадош, 64</option>
+									<option value="Герцелия, ул. Аба Евен, 8">Герцелия, ул. Аба Евен, 8</option>
+									<option value="Холон, ул. ха-Меркава, 73">Холон, ул. ха-Меркава, 73</option>
+									<option value="Кфар Саба, ул. ха-Таяс, 17">Кфар Саба, ул. ха-Таяс, 17</option>								
+									<option value="Кирьят Шмона, ул. ха-Ярден, 1">Кирьят Шмона, ул. ха-Ярден, 1</option>
+									<option value="Нес Циона, ул. ха-Патиш, 10">Нес Циона, ул. ха-Патиш, 10</option>
+									<option value="Петах Тиква, ул. Жаботински, 82">Петах Тиква, ул. Жаботински, 82</option>
+									<option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
+									<option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
+								</select>
+                        <input type="date" name="pick-up-date" id="pick-up-date" placeholder="Дата" min="2016-01-02" max="2017-12-01" required = "required">
+                        <input type="time" name="pick-up-time" id="pick-up-time" placeholder="Время" step="1800" required = "required" >                 
                         <!-- Pick-up date/time end -->
-
-                        <!-- Drop-off date/time start -->
-                        <input type="date" name="drop-off-date" id="drop-off-date" placeholder="Дата" min="2016-01-02" max="2017-12-01">
-<!--                        <input type="text" name="drop-off-time" id="drop-off-time">-->
-                                    <select name="drop-off-time" id="drop-off-time">
-					<option value="(время не выбрано)">Время возврата автомобиля</option>
-                                        <option value="00:00">00:00</option>
-                                        <option value="00:30">00:30</option>
-                                        <option value="01:00">01:00</option>
-                                        <option value="01:30">01:30</option>
-                                        <option value="02:00">02:00</option>
-                                        <option value="02:30">02:30</option>
-                                        <option value="03:00">03:00</option>
-                                        <option value="03:30">03:30</option>
-                                        <option value="04:00">04:00</option>
-                                        <option value="04:30">04:30</option>
-                                        <option value="05:00">05:00</option>
-                                        <option value="05:30">05:30</option>
-                                        <option value="06:00">06:00</option>
-                                        <option value="06:30">06:30</option>
-                                        <option value="07:00">07:00</option>
-                                        <option value="07:30">07:30</option>
-                                        <option value="08:00">08:00</option>
-                                        <option value="08:30">08:30</option>
-                                        <option value="09:00">09:00</option>
-                                        <option value="09:30">09:30</option>
-                                        <option value="10:00">10:00</option>
-                                        <option value="10:30">10:30</option>
-                                        <option value="11:00">11:00</option>
-                                        <option value="11:30">11:30</option>
-                                        <option value="12:00">12:00</option>
-                                        <option value="12:30">12:30</option>
-                                        <option value="13:00">13:00</option>
-                                        <option value="13:30">13:30</option>
-                                        <option value="14:00">14:00</option>
-                                        <option value="14:30">14:30</option>
-                                        <option value="15:00">15:00</option>
-                                        <option value="15:30">15:30</option>
-                                        <option value="16:00">16:00</option>
-                                        <option value="16:30">16:30</option>
-                                        <option value="17:00">17:00</option>
-                                        <option value="17:30">17:30</option>
-                                        <option value="18:00">18:00</option>
-                                        <option value="18:30">18:30</option>
-                                        <option value="19:00">19:00</option>
-                                        <option value="19:30">19:30</option>
-                                        <option value="20:00">20:00</option>
-                                        <option value="20:30">20:30</option>
-                                        <option value="21:00">21:00</option>
-                                        <option value="21:30">21:30</option>
-                                        <option value="22:00">22:00</option>
-                                        <option value="22:30">22:30</option>
-                                        <option value="23:00">23:00</option>
-                                        <option value="23:30">23:30</option>
-                                    </select>
-                        <br />        
+                        <br />
+                        <!-- Drop-off start -->
+                        Возврат Автомобиля <br />
+                        <select name="drop-off-location" id="drop-off-location">
+									<option value="">Отделение</option>
+									<option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
+									<option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
+									<option value="Тель Авив, ул. ха-Масгер, 9">Тель Авив, ул. ха-Масгер, 9</option>
+									<option value="Иерусалим, ул. Кинг Давид, 19">Иерусалим, ул. Кинг Давид, 19</option>
+									<option value="Хайфа, шдерот ха-Гистадрут, 88">Хайфа, шдерот ха-Гистадрут, 88</option>
+									<option value="Нетания, ул. Усишкин, 1">Нетания, ул. Усишкин, 1</option>
+									<option value="Тверия, ул. ха-Ярден, 71">Тверия, ул. ха-Ярден, 71</option>
+									<option value="Эйлат, ул. Шешет ха-Ямим, 3">Эйлат, ул. Шешет ха-Ямим, 3</option>								
+									<option value="Афула, ул. Менахем Бегин, 70">Афула, ул. Менахем Бегин, 70</option>
+									<option value="Ашдод, ул. ха-Оргим, 7">Ашдод, ул. ха-Оргим, 7</option>
+									<option value="Беэр Шева, дерех Хеврон, 129">Беэр Шева, дерех Хеврон, 129</option>
+									<option value="Бейт Шемеш, ул. Нахалат Зоар, 10">Бейт Шемеш, ул. Нахалат Зоар, 10</option>
+									<option value="Бней Брак, ул. Каханман, 106">Бней Брак, ул. Каханман, 106</option>
+									<option value="Бней Брак, ул. Мивца Кадош, 64">Бней Брак, ул. Мивца Кадош, 64</option>
+									<option value="Герцелия, ул. Аба Евен, 8">Герцелия, ул. Аба Евен, 8</option>
+									<option value="Холон, ул. ха-Меркава, 73">Холон, ул. ха-Меркава, 73</option>
+									<option value="Кфар Саба, ул. ха-Таяс, 17">Кфар Саба, ул. ха-Таяс, 17</option>								
+									<option value="Кирьят Шмона, ул. ха-Ярден, 1">Кирьят Шмона, ул. ха-Ярден, 1</option>
+									<option value="Нес Циона, ул. ха-Патиш, 10">Нес Циона, ул. ха-Патиш, 10</option>
+									<option value="Петах Тиква, ул. Жаботински, 82">Петах Тиква, ул. Жаботински, 82</option>
+									<option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
+									<option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
+								</select>
+                        <input type="date" name="drop-off-date" id="drop-off-date" placeholder="Дата" min="2016-01-02" max="2017-12-01" required = "required">
+                        <input type="time" name="drop-off-time" id="drop-off-time" placeholder="Время" step="1800" required = "required" >
                         <!-- Drop-off date/time end -->
+                        <br />
                         <textarea name="message" placeholder="Your message"></textarea> <br />
                         <input type="submit" value="Send">
   </form> 
@@ -316,9 +205,9 @@ if(m1<10)
 var dt1 = d1.getDate();
 if(dt1<10)
 dt1 = "0"+dt1;
-var d2 = y1+"-"+m1+"-"+dt1+1;
-document.getElementById('pick-up-date').value=d2+1;
-document.getElementById('drop-off-date').value=d2+2;
+var d2 = y1+"-"+m1+"-"+dt1;
+document.getElementById('pick-up-date').value=d2;
+document.getElementById('drop-off-date').value=d2;
 </script>
     </body>
 </html>
