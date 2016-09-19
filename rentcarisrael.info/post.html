@@ -25,10 +25,12 @@
  
 
 <form id="contactform" action="//formspree.io/rentcar@vastama.com" method="POST">
-    <input type="text" name="name" placeholder="Your name">
+    <input type="text" name="First_name" placeholder="Your First name">
+    <input type="text" name="Last_name" placeholder="Your Last name">
     <input type="email" name="_replyto" placeholder="Your email">
+    <input type="text" name="phone" placeholder="Your contact phone">
+    <br /> 
     
-    <textarea name="message" placeholder="Your message"></textarea>
     
     
 
@@ -36,9 +38,9 @@
         
         <!-- Pick-up location start -->
                         
-                                 <input type="text" name="pick-up-location" id="pick-up-location"> 
+<!--                                 <input type="text" name="pick-up-location" id="pick-up-location"> -->
 								<select name="pick-up-location" id="pick-up-location">
-									<option value="">Выберите</option>
+									<option value="">Выберите место аренды автомобиля</option>
 									<option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
 									<option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
 									<option value="Тель Авив, ул. ха-Масгер, 9">Тель Авив, ул. ха-Масгер, 9</option>
@@ -62,14 +64,15 @@
 									<option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
 									<option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
 								</select>
+                                 <br />
                             
                             <!-- Pick-up location end -->
                             <!-- Drop-off location start -->
 <!--                            <div class="input-group drop-off">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span> Возврат</span>-->
-                                <input type="text" name="drop-off-location" id="drop-off-location" > 
+<!--                                <input type="text" name="drop-off-location" id="drop-off-location" > -->
 								<select name="drop-off-location" id="drop-off-location">
-									<option value="">Выберите</option>
+									<option value="">Выберите место возврата автомобиля</option>
 									<option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
 									<option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
 									<option value="Тель Авив, ул. ха-Масгер, 9">Тель Авив, ул. ха-Масгер, 9</option>
@@ -93,6 +96,7 @@
 									<option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
 									<option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
 								</select>
+<br />
                           
                         <!-- Drop-off location end -->
                             
@@ -151,6 +155,7 @@
 							<option value="19" data-imagesrc="images/toyota-highlander.jpg"
 								data-description="или похожая в категории - от 166$ в сутки">Toyota Highlander</option>
 						</select>
+                             <br />
 	<!--
                             <select name="car-select" id="car-select">
                                 <option value="">Выберите автомобиль</option>
@@ -180,14 +185,16 @@
 								<option value="images/vehicle6.jpg">Toyota Highlander</option>
                             </select>	
 							-->
-                        </div>
+                        
                         <!-- Car select end -->
                         
                         <!-- Pick-up date/time start -->
-                        
-                                    <input type="text" name="pick-up-date" id="pick-up-date">
+                        Enter a date before 1980-01-01:<br>
+
+                        <input type="date" name="pick-up-date" id="pick-up-date" placeholder="Дата" min="2000-01-02" max="1979-12-31">
+<!--                                    <input type="text" name="pick-up-date" id="pick-up-date">-->
                                         <select name="pick-up-time" id="pick-up-time">
-					<option value="(время не выбрано)">Время</option>
+					<option value="(время не выбрано)">Время аренды автомобиля</option>
                                         <option value="00:00">00:00</option>
                                         <option value="00:30">00:30</option>
                                         <option value="01:00">01:00</option>
@@ -237,13 +244,14 @@
                                         <option value="23:00">23:00</option>
                                         <option value="23:30">23:30</option>
                                     </select>
-                           
+                        <br />   
                         <!-- Pick-up date/time end -->
 
                         <!-- Drop-off date/time start -->
-                        <input type="text" name="drop-off-time" id="drop-off-time">
+                        <input type="date" name="drop-off-date" id="drop-off-date" placeholder="Дата" min="2000-01-02" max="1979-12-01">
+<!--                        <input type="text" name="drop-off-time" id="drop-off-time">-->
                                     <select name="drop-off-time" id="drop-off-time">
-					<option value="(время не выбрано)">Время</option>
+					<option value="(время не выбрано)">Время возврата автомобиля</option>
                                         <option value="00:00">00:00</option>
                                         <option value="00:30">00:30</option>
                                         <option value="01:00">01:00</option>
@@ -293,8 +301,9 @@
                                         <option value="23:00">23:00</option>
                                         <option value="23:30">23:30</option>
                                     </select>
-                                
+                        <br />        
                         <!-- Drop-off date/time end -->
+                        <textarea name="message" placeholder="Your message"></textarea> <br />
                         <input type="submit" value="Send">
   </form> 
     </body>
