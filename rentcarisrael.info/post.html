@@ -29,14 +29,14 @@
     <input type="email" name="_replyto" placeholder="Your email">
     
     <textarea name="message" placeholder="Your message"></textarea>
-    <textarea name="pick-up-location" placeholder="Your message"></textarea>
-    <input type="submit" value="Send">
+    
+    
 
         
         
         <!-- Pick-up location start -->
                         
-                                 <input type="text" name="pick-up-location" id="pick-up-location" class="form-control autocomplete-location" placeholder="Введите город или аэропорт"> 
+                                 <input type="text" name="pick-up-location" id="pick-up-location"> 
 								<select name="pick-up-location" id="pick-up-location">
 									<option value="">Выберите</option>
 									<option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
@@ -62,12 +62,12 @@
 									<option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
 									<option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
 								</select>
-                            </div>
+                            
                             <!-- Pick-up location end -->
                             <!-- Drop-off location start -->
 <!--                            <div class="input-group drop-off">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span> Возврат</span>-->
-                                <input type="text" name="drop-off-location" id="drop-off-location" class="form-control autocomplete-location" placeholder="Введите город или аэропорт"> 
+                                <input type="text" name="drop-off-location" id="drop-off-location" > 
 								<select name="drop-off-location" id="drop-off-location">
 									<option value="">Выберите</option>
 									<option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
@@ -93,23 +93,20 @@
 									<option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
 									<option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
 								</select>
-                            </div>
-                        </div>
+                          
                         <!-- Drop-off location end -->
                             
                           
                              <!-- Car select start -->
-                        <div class="car-select">
-						<!-- <span class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span> Автомобиль</span> -->
-
+                        
 						 <select name="car-select" id="car-select-demo">
 							<option value="0" selected="selected" 
 								data-description="От 10$ до 166$ в сутки">Выберите автомобиль</option>
-							<option value="1" data-imagesrc="images/smart.jpg"
+							<option value="Cat Q" data-imagesrc="images/smart.jpg"
 								data-description="или похожая в категории - от 10$ в сутки">Smart Fortwo</option>
-							<option value="2" data-imagesrc="images/CatB.jpg"
+							<option value="Cat B" data-imagesrc="images/CatB.jpg"
 								data-description="или похожая в категории - от 10$ в сутки">Suzuki Alto (manual)</option>
-							<option value="3" data-imagesrc="images/CatC.jpg"
+							<option value="Cat C" data-imagesrc="images/CatC.jpg"
 								data-description="или похожая в категории - от 11$ в сутки">Toyota Aygo</option>
 							<option value="4" data-imagesrc="images/CatE.jpg"
 								data-description="или похожая в категории - от 12$ в сутки">Hyundai i20</option>
@@ -187,17 +184,10 @@
                         <!-- Car select end -->
                         
                         <!-- Pick-up date/time start -->
-                        <div class="datetime pick-up">
-                            <div class="date pull-left">
-                                <div class="input-group">
-                                    <span class="input-group-addon pixelfix"><span class="glyphicon glyphicon-calendar"></span> Получение</span>
-                                    <input type="text" name="pick-up-date" id="pick-up-date" class="form-control datepicker" placeholder="Дата">
-                                </div>
-                            </div>
-                            <div class="time pull-right">
-                                <div class="styled-select-time">
-                                    <select name="pick-up-time" id="pick-up-time">
-										<option value="(время не выбрано)">Время</option>
+                        
+                                    <input type="text" name="pick-up-date" id="pick-up-date">
+                                        <select name="pick-up-time" id="pick-up-time">
+					<option value="(время не выбрано)">Время</option>
                                         <option value="00:00">00:00</option>
                                         <option value="00:30">00:30</option>
                                         <option value="01:00">01:00</option>
@@ -247,25 +237,14 @@
                                         <option value="23:00">23:00</option>
                                         <option value="23:30">23:30</option>
                                     </select>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
+                           
                         <!-- Pick-up date/time end -->
 
                         <!-- Drop-off date/time start -->
-                        <div class="datetime drop-off">
-                            <div class="date pull-left">
-                                <div class="input-group">
-                                    <span class="input-group-addon pixelfix"><span class="glyphicon glyphicon-calendar"></span> Возврат</span>
-                                    <input type="text" name="drop-off-date" id="drop-off-date" class="form-control datepicker" placeholder="Дата">
-                                </div>
-                            </div>
-                            <div class="time pull-right">
-                                <div class="styled-select-time">
+                        <input type="text" name="drop-off-time" id="drop-off-time">
                                     <select name="drop-off-time" id="drop-off-time">
-										<option value="(время не выбрано)">Время</option>
-                                                             <option value="00:00">00:00</option>
+					<option value="(время не выбрано)">Время</option>
+                                        <option value="00:00">00:00</option>
                                         <option value="00:30">00:30</option>
                                         <option value="01:00">01:00</option>
                                         <option value="01:30">01:30</option>
@@ -314,11 +293,9 @@
                                         <option value="23:00">23:00</option>
                                         <option value="23:30">23:30</option>
                                     </select>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
+                                
                         <!-- Drop-off date/time end -->
+                        <input type="submit" value="Send">
   </form> 
     </body>
 </html>
