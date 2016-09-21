@@ -19,83 +19,47 @@
 
 <link href="css/_font-awesome.css" rel="stylesheet">
 <link href="css/form.css" rel="stylesheet">
-<style type="text/css">
- thumb {
-    width:150px;
-    height:150px;
-    background-position:center center;
-    overflow:hidden;
-    border:1px solid black;
-
-   background-image: attr(data-imagesrc url);
-}
-</style>
-
 </head>
     
     <body> 
  
 
 <form id="contactform" action="//formspree.io/rentcar@vastama.com" method="POST">
-    <input type="text" name="First_name" placeholder="Your First name">
-    <input type="text" name="Last_name" placeholder="Your Last name"> <br />
-    <input type="email" name="replayto" placeholder="Your email">
-    <input type="text" name="phone" placeholder="Your contact phone"> <br />
+    <input type="text" name="First_name" placeholder="Ваше имя на английском">
+    <input type="text" name="Last_name" placeholder="Ваша фамилия на анлийском"> <br />
+    <input type="email" name="replayto" placeholder="Ваша почта, на нее придет ваучер">
+    <input type="text" name="phone" placeholder="Ваш контактный телефон"> <br />
     <br /> 
                          
                           
                              <!-- Car select start -->
                         Выберите автомобиль
-						 <select name="car-select" id="car-select-demo">
+						 <select name="car-select" id="car-select" required = "required">
 							
-							<option value="Category Q" data-imagesrc="images/smart.jpg"
-								data-description="или похожая в категории - от 10$ в сутки">Smart Fortwo или похожая в категории - от 10$ в сутки</option>
-							<option  value="Category B" data-imagesrc="images/catB.jpg"
-								data-description="или похожая в категории - от 10$ в сутки">Suzuki Alto (manual) или похожая в категории - от 10$ в сутки</option>
-							<option value="Category C" data-imagesrc="images/CatC.jpg" 
-								data-description="или похожая в категории - от 11$ в сутки">Toyota Aygo или похожая в категории - от 11$ в сутки</option>
-							<option value="Category E" data-imagesrc="images/CatE.jpg"
-								data-description="или похожая в категории - от 12$ в сутки">Hyundai i20 или похожая в категории - от 12$ в сутки</option>
-							<option value="5" data-imagesrc="images/ford-fiesta.jpg"
-								data-description="или похожая в категории - от 13$ в сутки">Ford Fiesta или похожая в категории - от 13$ в сутки</option>
-							<option value="Category F" data-imagesrc="images/CatF.jpg"
-								data-description="или похожая в категории - от 16$ в сутки">Kia Forte или похожая в категории - от 16$ в сутки</option>
-							<option value="2" data-imagesrc="images/honda-insight.jpg"
-								data-description="или похожая в категории - от 17$ в сутки">Honda Insight Hybrid или похожая в категории - от 17$ в сутки</option>
-							<option value="Category I" data-imagesrc="images/CatI.jpg"
-								data-description="или похожая в категории - от 18$ в сутки">Mazda 3 или похожая в категории - от 18$ в сутки</option>
-							<option value="4" data-imagesrc="images/honda-civic.jpg"
-								data-description="или похожая в категории - от 24$ в сутки">Honda Civic или похожая в категории - от 24$ в сутки</option>
-							<option value="5" data-imagesrc="images/mazda6.jpg"
-								data-description="или похожая в категории - от 31$ в сутки">Mazda 6 или похожая в категории - от 31$ в сутки</option>
-							<option value="6" data-imagesrc="images/honda-accord.jpg"
-								data-description="или похожая в категории - от 42$ в сутки">Honda Accord Hybrid или похожая в категории - от 42$ в сутки</option>
-							<option value="7" data-imagesrc="images/fiat-dublo.jpg"
-								data-description="или похожая в категории - от 39$ в сутки">Fiat Doblo или похожая в категории - от 39$ в сутки</option>
-							<option value="8" data-imagesrc="images/mazda-5.jpg"
-								data-description="или похожая в категории - от 39$ в сутки">Mazda 5 или похожая в категории - от 39$ в сутки</option>
-							<option value="9" data-imagesrc="images/nissan-qashqai.jpg"
-								data-description="или похожая в категории - от 42$ в сутки">Nissan Qashqai или похожая в категории - от 42$ в сутки</option>
-							<option value="10" data-imagesrc="images/chevrolet-malibu.jpg"
-								data-description="или похожая в категории - от 58$ в сутки">Chevrolet Malibu или похожая в категории - от 58$ в сутки</option>
-							<option value="11" data-imagesrc="images/ford-galaxy.jpg"
-								data-description="или похожая в категории - от 58$ в сутки">Ford Galaxy V или похожая в категории - от 58$ в сутки</option>
-							<option value="12" data-imagesrc="images/citroen-jumpy.jpg"
-								data-description="или похожая в категории - от 55$ в сутки">Citroen Jumpy или похожая в категории - от 55$ в сутки</option>
-							<option value="13" data-imagesrc="images/toyota-siena.jpg"
-								data-description="или похожая в категории - от 83$ в сутки">Toyota Sienna или похожая в категории - от 83$ в сутки</option>
-							<option value="14" data-imagesrc="images/bmw318.jpg"
-								data-description="или похожая в категории - от 83$ в сутки">BMW 318i или похожая в категории - от 83$ в сутки</option>
-							<option value="15" data-imagesrc="images/buick-lacrosse.jpg"
-								data-description="или похожая в категории - от 79$ в сутки">Buick LaCrosse или похожая в категории - от 79$ в сутки</option>
-							<option value="16" data-imagesrc="images/hyundai-i800.jpg"
-								data-description="или похожая в категории - от 83$ в сутки">Hyundai i800 или похожая в категории - от 83$ в сутки</option>
-							<option value="17" data-imagesrc="images/hyundai-i800.jpg"
-								data-description="или похожая в категории - от 65$ в сутки">Hyundai i800 (manual) или похожая в категории - от 65$ в сутки</option>
-							<option value="18" data-imagesrc="images/CatW.jpg"
-								data-description="или похожая в категории - от 122$ в сутки">BMW i535 или похожая в категории - от 122$ в сутки</option>
-							<option value="19" data-imagesrc="images/toyota-highlander.jpg"
-								data-description="или похожая в категории - от 166$ в сутки">Toyota Highlander или похожая в категории - от 166$ в сутки</option>
+							<option value="Category Q" >Smart Fortwo или похожая в категории - от 10$ в сутки</option>
+							<option value="Category B" >Suzuki Alto (manual) или похожая в категории - от 10$ в сутки</option>
+							<option value="Category C" >Toyota Aygo или похожая в категории - от 11$ в сутки</option>
+							<option value="Category D" >Hyundai i20 или похожая в категории - от 12$ в сутки</option>
+							<option value="Category E" >Ford Fiesta или похожая в категории - от 13$ в сутки</option>
+							<option value="Category F" >Kia Forte или похожая в категории - от 16$ в сутки</option>
+							<option value="Category FH" >Honda Insight Hybrid или похожая в категории - от 17$ в сутки</option>
+							<option value="Category I" >Mazda 3 или похожая в категории - от 18$ в сутки</option>
+							<option value="Category H" >Honda Civic или похожая в категории - от 24$ в сутки</option>
+							<option value="Category M" >Mazda 6 или похожая в категории - от 31$ в сутки</option>
+							<option value="Category MH" >Honda Accord Hybrid или похожая в категории - от 42$ в сутки</option>
+							<option value="Category T" >Fiat Doblo или похожая в категории - от 39$ в сутки</option>
+							<option value="Category U" >Mazda 5 или похожая в категории - от 39$ в сутки</option>
+							<option value="Category J" >Nissan Qashqai или похожая в категории - от 42$ в сутки</option>
+							<option value="Category R" >Chevrolet Malibu или похожая в категории - от 58$ в сутки</option>
+							<option value="Category V" >Ford Galaxy V или похожая в категории - от 58$ в сутки</option>
+							<option value="Category Y" >Citroen Jumpy или похожая в категории - от 55$ в сутки</option>
+							<option value="Category V8" >Toyota Sienna или похожая в категории - от 83$ в сутки</option>
+							<option value="Category K" >BMW 318i или похожая в категории - от 83$ в сутки</option>
+							<option value="Category P" >Buick LaCrosse или похожая в категории - от 79$ в сутки</option>
+							<option value="Category Z" >Hyundai i800(автомат) или похожая в категории - от 83$ в сутки</option>
+							<option value="Category E" >Hyundai i800(ручник) или похожая в категории - от 65$ в сутки</option>
+							<option value="Category W" >BMW i535 или похожая в категории - от 122$ в сутки</option>
+							<option value="Category O" >Toyota Highlander или похожая в категории - от 166$ в сутки</option>
 						</select>
                              <br />
                      
@@ -103,7 +67,7 @@
                         
                         <!-- Pick-up date/time start -->  
                         Сьем Автомобиля <br />
-                        <select name="pick-up-location" id="pick-up-location">
+                        <select name="pickup-location" id="pickup-location">
                             <option value="">Отделение</option>
                                 					<option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
 									<option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
@@ -128,13 +92,13 @@
 									<option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
 									<option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
 								</select>
-                        <input type="date" name="pick-up-date" id="pick-up-date" placeholder="Дата" min="2016-01-02" max="2017-12-01" required = "required">
-                        <input type="time" name="pick-up-time" id="pick-up-time" placeholder="Время" step="1800" required = "required" >                 
+                        <input type="date" name="pickup-date" id="pickup-date" placeholder="Дата" min="2016-01-02" max="2017-12-01" required = "required">
+                        <input type="time" name="pickup-time" id="pickup-time" placeholder="Время" step="1800" required = "required" >                 
                         <!-- Pick-up date/time end -->
                         <br />
                         <!-- Drop-off start -->
                         Возврат Автомобиля <br />
-                        <select name="drop-off-location" id="drop-off-location">
+                        <select name="dropoff-location" id="dropoff-location">
 									<option value="">Отделение</option>
 									<option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
 									<option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
@@ -159,8 +123,8 @@
 									<option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
 									<option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
 								</select>
-                        <input type="date" name="drop-off-date" id="drop-off-date" placeholder="Дата" min="2016-01-02" max="2017-12-01" required = "required">
-                        <input type="time" name="drop-off-time" id="drop-off-time" placeholder="Время" step="1800" required = "required" >
+                        <input type="date" name="dropoff-date" id="dropoff-date" placeholder="Дата" min="2016-01-02" max="2017-12-01" required = "required">
+                        <input type="time" name="dropoff-time" id="dropoff-time" placeholder="Время" required = "required" >
                         <!-- Drop-off date/time end -->
                         <br />
                         <textarea name="message" placeholder="Your message"></textarea> <br />
