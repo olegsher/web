@@ -29,6 +29,8 @@
     <input type="text" name="Last_name" placeholder="Ваша фамилия на анлийском"> <br />
     <input type="email" name="email" placeholder="Ваша почта, на нее придет ваучер">
     <input type="text" name="phone" placeholder="Ваш контактный телефон"> <br />
+    <input type="text" name="age" placeholder="Возраст водителя" /> <br />
+    <input type="text" name="DriverExperience" placeholder="Стаж вождения" /> <br />
     <br /> 
                          
                           
@@ -127,7 +129,15 @@
                         <input type="time" name="dropoff-time" id="dropoff-time" placeholder="Время" required = "required" >
                         <!-- Drop-off date/time end -->
                         <br />
-                        <textarea name="message" placeholder="Your message"></textarea> <br />
+                        <input type="checkbox" name="SuperCDW" value="SuperCDW"> Добавить отмену личного участия при повреждении машины<br>
+                        <input type="checkbox" name="SuperTP" value="SuperTP"> Добавить отмену личного участия при угоне машины<br>
+                        <input type="checkbox" name="childseat" value="childseat"> Детское сидение 5$ в день<br>
+<!--                        <input type="checkbox" name="youngDriver" value="youngDriver"> Молодой водитель, менее года<br>-->
+                        <input type="checkbox" name="addDriver" value="addDriver"> Дополнительный водитель 2$ в день<br>
+                        <input type="checkbox" name="RoadSafe" value="RoadSafe"> Быстрая помощь на дороге 4$ в день<br>
+<!--                        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+                        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>-->
+                        <textarea name="message" placeholder="Дополнительная информация, вопрос..."></textarea> <br />
                         
                         <input type="submit" value="Send">
   </form> 
