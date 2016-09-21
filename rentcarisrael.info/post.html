@@ -43,7 +43,9 @@
                      
                         <!-- Car select end -->
                         
-                        <!-- Pick-up date/time start -->  
+                        <!-- Pick-up date/time start -->
+                        <section>
+                        <hr />
                         Сьем Автомобиля <br />
                         <select name="pickup-location" id="pickup-location">
                             <option value="">Отделение</option>
@@ -73,8 +75,11 @@
                         <input type="date" name="pickup-date" id="pickup-date" placeholder="Дата" min="2016-09-01" max="2017-12-01" required = "required">
                         <input type="time" name="pickup-time" id="pickup-time" placeholder="Время" required = "required" >                 
                         <!-- Pick-up date/time end -->
+                        </section>
                         <br />
                         <!-- Drop-off start -->
+                        <section>
+                        <hr />
                         Возврат Автомобиля <br />
                         <select name="dropoff-location" id="dropoff-location">
 									<option value="">Отделение</option>
@@ -103,6 +108,7 @@
 								</select>
                         <input type="date" name="dropoff-date" id="dropoff-date" placeholder="Дата" min="2016-09-02" max="2017-12-01" required = "required">
                         <input type="time" name="dropoff-time" id="dropoff-time" placeholder="Время" required = "required" >
+                        </section>
                         <!-- Drop-off date/time end -->
                         <br />
                         <input type="checkbox" name="SuperCDW" value="SuperCDW"> Добавить отмену личного участия при повреждении машины<br>
