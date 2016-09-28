@@ -12,21 +12,7 @@
 <body>
 <?php include("_counters.html"); ?>
 <?php include("_top.html"); ?>
-<?php include("transfer.html"); ?>
-
+<?php include("_index.html"); ?>
 <?php include("_footer.html"); ?>
-
-<script type="text/javascript">
-function downloadJSAtOnload() {
-var element = document.createElement("script");
-element.src = "js/jquery-1.12.0.min.js";
-document.body.appendChild(element);
-}
-if (window.addEventListener)
-window.addEventListener("load", downloadJSAtOnload, false);
-else if (window.attachEvent)
-window.attachEvent("onload", downloadJSAtOnload);
-else window.onload = downloadJSAtOnload;
-</script>
 </body>
 
