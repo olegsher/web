@@ -29,6 +29,7 @@ li.ned,li.wrt,li.tol{margin-right:12px;}
 i.fa.fa-lock{color:#1f8dd6;font-size:2em;padding-right:10px;}
 .banner{background:url(../images/3.jpg)no-repeat;background-size:cover;-webkit-background-size:cover;-o-background-size:cover;-ms-background-size:cover;-moz-background-size:cover;min-height:430px;}
 .banner h1{font-size:50px;margin-bottom:40px;padding:4em 0 0;text-align:center;color:#ffffff;}
+.bann-info h1{font-size:26px;margin-bottom:30px;color:#34ad00;font-weight:700;}
 .bann-info h2{font-size:26px;margin-bottom:30px;color:#34ad00;font-weight:700;}
 .bann-info{padding:4em 0;}
 .bnr-right input[type="text"]{width:95%;color:#9E9E9E;outline:none;font-size:14px;padding:10px 10px;border:1px solid #9E9E9E;-webkit-appearance:none;margin-top:10px;}
