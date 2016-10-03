@@ -66,18 +66,8 @@ $message .= "</body></html>";
 
 
     mail($to,$subject,$message,$headers);
-    
     $subject2 = "Ваш заказ автомобиля на rentcarisrael.online";
-//    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
-    
-    
-    
-    
-    
-    
-    
-//    $headers2 = "From:" . $to; 
-//    $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
+
     $headers2 = "From: " . strip_tags($reqemail) . "\r\n";
     $headers2 .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
     
@@ -85,12 +75,8 @@ $message .= "</body></html>";
     $headers2 .= "Content-Type: text/html; charset=utf-8\r\n";
     mail($from,$subject2,$message,$headers2); // sends a copy of the message to the sender
     
-    
-    
-    
-//    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
     header("Location: http://www.rentcarisrael.online/thankyou.php");
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    
     }
 ?>
 
