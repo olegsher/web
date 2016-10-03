@@ -36,15 +36,15 @@ if(isset($_POST['submit'])){
     $headers = "From:" . $from;
     $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['car-select'] . " " . "rentcarisrael.online";    
     $message =  
-            $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['Religious'] . "\n\n" 
-            . " " . $_POST['phone'] . " " . $_POST['email'] . "\n\n" 
-            . " " . $_POST['age'] . " " . $_POST['DriverExperience'] . "\n\n" 
-            . " " . $_POST['car-select'] . "\n\n" 
-            . " " . $_POST['pickup-location'] . " " . $_POST['pickup-date'] . " " . $_POST['pickup-time'] . "\n\n" 
-            . " " . $_POST['dropoff-location'] . " " . $_POST['dropoff-date'] . " " . $_POST['dropoff-time'] . "\n\n" 
-            . " " . $_POST['SuperCDW'] . " " . $_POST['SuperTP'] . "\n\n" 
-            . " " . $_POST['childseat'] . " " . $_POST['GPS'] . " " . $_POST['addDriver'] . " " . $_POST['RoadSafe'] . "\n\n"           
-            . " " . $_POST['message'];
+            $_POST['First_name'] . " " . $_POST['Last_name'] . "Religious price - " . $_POST['Religious'] . "\n\n" 
+            . "Phone " . $_POST['phone'] . "Email " . $_POST['email'] . "\n\n" 
+            . "Age " . $_POST['age'] . "Driver Experience " . $_POST['DriverExperience'] . "\n\n" 
+            . "Car Category " . $_POST['car-select'] . "\n\n" 
+            . "Pickup branch " . $_POST['pickup-location'] . "Pickup date " . $_POST['pickup-date'] . "Pickup tine " . $_POST['pickup-time'] . "\n\n" 
+            . "Dropoff branch " . $_POST['dropoff-location'] . "Dropoff date " . $_POST['dropoff-date'] . "Dropoff time " . $_POST['dropoff-time'] . "\n\n" 
+            . "SuperCDW - " . $_POST['SuperCDW'] . "SuperTP - " . $_POST['SuperTP'] . "\n\n" 
+            . "Children seats - " . $_POST['childseat'] . " " . $_POST['GPS'] . "GPS - " . $_POST['addDriver'] . "RoadSafe - " . $_POST['RoadSafe'] . "\n\n"           
+            . "Message: " . $_POST['message'];
     mail($to,$subject,$message,$headers);
     
     $subject2 = "Заказ автомобиля на rentcarisrael.online";
