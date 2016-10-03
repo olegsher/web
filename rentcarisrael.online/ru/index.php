@@ -14,7 +14,7 @@
 <body>
 <?php include("__counters.html"); ?>
 <?php include("__top.html"); ?>
-<?php include("_index.html"); ?>
+<?php include("_index.php"); ?>
 <?php include("__footer.html"); ?>
 </body>
 
