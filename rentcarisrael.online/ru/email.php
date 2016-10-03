@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "test@sher.biz"; // this is your Email address
-    $reqemail = "admin@sher.biz";
+    $to = "rentcar@vastama.com"; // this is your Email address
+    $reqemail = "rentcar@sher.biz";
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['First_name'];
     $last_name = $_POST['Last_name'];
@@ -28,14 +28,8 @@ if(isset($_POST['submit'])){
     
     $message = $_POST['message'];
    
-    
-    
-    
-    
-    
-    
-    $headers = "From:" . $from;
-    $headers = "From: " . strip_tags($from) . "\r\n";
+//    $headers = "From:" . $from;
+    $headers = "From: " . strip_tags($to) . "\r\n";
     $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
     $headers .= "CC: oleg@sher.biz\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
@@ -73,15 +67,23 @@ $message .= "</body></html>";
 
     mail($to,$subject,$message,$headers);
     
-    $subject2 = "Заказ автомобиля на rentcarisrael.online";
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
-    $headers2 = "From:" . $to;    
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    $subject2 = "Ваш заказ автомобиля на rentcarisrael.online";
+//    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
     
     
     
     
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    
+    
+    
+    $headers2 = "From:" . $to; 
+    $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
+    mail($from,$subject2,$message,$headers2); // sends a copy of the message to the sender
+    
+    
+    
+    
+//    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
     header("Location: http://www.rentcarisrael.online/thankyou.php");
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
