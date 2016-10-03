@@ -82,7 +82,7 @@ $message .= "</body></html>";
     
     
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-    header("Location: http://www.rentcarisrael.online");
+    header("Location: http://www.rentcarisrael.online/thankyou.php");
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
