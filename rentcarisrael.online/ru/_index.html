@@ -66,16 +66,17 @@ $message .= "</body></html>";
 
 
     mail($to,$subject,$message,$headers);
+    
     $subject2 = "Ваш заказ автомобиля на rentcarisrael.online";
-
     $headers2 = "From: " . strip_tags($reqemail) . "\r\n";
     $headers2 .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
-    
     $headers2 .= "MIME-Version: 1.0\r\n";
     $headers2 .= "Content-Type: text/html; charset=utf-8\r\n";
-    mail($from,$subject2,$message,$headers2); // sends a copy of the message to the sender
+    $message2 = "test"
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     
     header("Location: http://www.rentcarisrael.online/thankyou.php");
+    
     
     }
 ?>
