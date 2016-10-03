@@ -260,7 +260,7 @@ $message .= "</body></html>";
                         <textarea name="message" placeholder="Дополнительная информация, вопрос..."></textarea> <br />
                         </section>
 <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>
-                        
+                        <br />
                         <input type="submit" name="submit" value="ЗАКАЗАТЬ">
                         
   </form>
