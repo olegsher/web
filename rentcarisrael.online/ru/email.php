@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['submit'])){
     $to = "rentcar@vastama.com"; // this is your Email address
-    $reqemail = "rentcar@sher.biz";
+    $reqemail = "rentcar@vastama.com";
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['First_name'];
     $last_name = $_POST['Last_name'];
@@ -29,9 +29,9 @@ if(isset($_POST['submit'])){
     $message = $_POST['message'];
    
 //    $headers = "From:" . $from;
-    $headers = "From: " . strip_tags($to) . "\r\n";
+    $headers = "From: " . strip_tags($reqemail) . "\r\n";
     $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
-    $headers .= "CC: oleg@sher.biz\r\n";
+    $headers .= "CC: rentcar@sher.biz\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=utf-8\r\n";
     
@@ -76,8 +76,13 @@ $message .= "</body></html>";
     
     
     
-    $headers2 = "From:" . $to; 
-    $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
+//    $headers2 = "From:" . $to; 
+//    $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
+    $headers2 = "From: " . strip_tags($reqemail) . "\r\n";
+    $headers2 .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
+    
+    $headers2 .= "MIME-Version: 1.0\r\n";
+    $headers2 .= "Content-Type: text/html; charset=utf-8\r\n";
     mail($from,$subject2,$message,$headers2); // sends a copy of the message to the sender
     
     
