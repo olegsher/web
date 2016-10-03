@@ -1,3 +1,100 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "rentcar@vastama.com"; // this is your Email address
+    $reqemail = "rentcar@vastama.com";
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['First_name'];
+    $last_name = $_POST['Last_name'];
+    $phone = $_POST['phone'];
+    
+    $car_select = $_POST['car-select'];
+    $pickup_location = $_POST['pickup-location'];
+    $pickup_date = $_POST['pickup-date'];
+    $pickup_time = $_POST['pickup-time'];
+    $dropoff_location = $_POST['dropoff-location'];
+    $dropoff_date = $_POST['dropoff-date'];    
+    $dropoff_time = $_POST['dropoff-time'];
+    
+    $age = $_POST['age'];
+    $DriverExperience = $_POST['DriverExperience'];
+    
+    $SuperCDW = $_POST['SuperCDW'];
+    $SuperTP = $_POST['SuperTP'];
+    $childseat = $_POST['childseat'];
+    $GPS = $_POST['GPS'];
+    $addDriver = $_POST['addDriver'];
+    $RoadSafe = $_POST['RoadSafe'];    
+    $Religious = $_POST['Religious'];
+    
+    $message = $_POST['message'];
+   
+//    $headers = "From:" . $from;
+    $headers = "From: " . strip_tags($reqemail) . "\r\n";
+    $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
+    $headers .= "CC: rentcar@sher.biz\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=utf-8\r\n";
+    
+    
+    $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['car-select'] . " " . "rentcarisrael.online";    
+            $message = '<html><body>';
+$message .= '<img src="http://www.rentcarisrael.online/images/Thrifty-Israel.jpg" alt="Website Change Request" />';
+$message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
+$message .= "<tr style='background: #eee;'><td><strong>First Name:</strong> </td><td>" . strip_tags($_POST['First_name']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Last Name:</strong> </td><td>" . strip_tags($_POST['Last_name']) . "</td></tr>";
+$message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
+$message .= "<tr><td><strong>Phone:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Car:</strong> </td><td>" . strip_tags($_POST['car-select']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>pickup location:</strong> </td><td>" . strip_tags($_POST['pickup-location']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>pickup date:</strong> </td><td>" . strip_tags($_POST['pickup-date']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>pickup time:</strong> </td><td>" . strip_tags($_POST['pickup-time']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>dropoff location:</strong> </td><td>" . strip_tags($_POST['dropoff-location']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>dropoff date:</strong> </td><td>" . strip_tags($_POST['dropoff-date']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>dropoff time:</strong> </td><td>" . strip_tags($_POST['dropoff-time']) . "</td></tr>";
+$message .= "<tr><td><strong>Age:</strong> </td><td>" . strip_tags($_POST['age']) . "</td></tr>";
+$message .= "<tr><td><strong>Driver Experience:</strong> </td><td>" . strip_tags($_POST['DriverExperience']) . "</td></tr>";
+$message .= "<tr><td><strong>SuperCDW:</strong> </td><td>" . strip_tags($_POST['SuperCDW']) . "</td></tr>";
+$message .= "<tr><td><strong>SuperTP:</strong> </td><td>" . strip_tags($_POST['SuperTP']) . "</td></tr>";
+$message .= "<tr><td><strong>Children seat:</strong> </td><td>" . strip_tags($_POST['childseat']) . "</td></tr>";
+$message .= "<tr><td><strong>GPS:</strong> </td><td>" . strip_tags($_POST['GPS']) . "</td></tr>";
+$message .= "<tr><td><strong>Roadsafe:</strong> </td><td>" . strip_tags($_POST['RoadSafe']) . "</td></tr>";
+$message .= "<tr><td><strong>Add driver:</strong> </td><td>" . strip_tags($_POST['addDriver']) . "</td></tr>";
+$message .= "<tr><td><strong>Religious:</strong> </td><td>" . strip_tags($_POST['Religious']) . "</td></tr>";
+$message .= "<tr><td><strong>message:</strong> </td><td>" . strip_tags($_POST['message']) . "</td></tr>";
+$message .= "</table>";
+$message .= "</body></html>";
+
+
+    mail($to,$subject,$message,$headers);
+    
+    $subject2 = "Ваш заказ автомобиля на rentcarisrael.online";
+//    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+    
+    
+    
+    
+    
+    
+    
+//    $headers2 = "From:" . $to; 
+//    $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
+    $headers2 = "From: " . strip_tags($reqemail) . "\r\n";
+    $headers2 .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
+    
+    $headers2 .= "MIME-Version: 1.0\r\n";
+    $headers2 .= "Content-Type: text/html; charset=utf-8\r\n";
+    mail($from,$subject2,$message,$headers2); // sends a copy of the message to the sender
+    
+    
+    
+    
+//    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    header("Location: http://www.rentcarisrael.online/thankyou.php");
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
+
 <div class="container">
 	<div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
 <!--		<i class="fa fa-columns"></i>-->
@@ -6,7 +103,7 @@
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
 		<h1>Форма аренды проката автомобиля в Израиле</h1>
-                <form id="contactform" action="//formspree.io/rentcar@vastama.com" method="POST">
+                <form id="contactform" action="" method="post">
 		<div class="ban-top">
 			<div class="bnr-left">
 				<label class="inputLabel">Выбирайте класс автомобиля</label>
@@ -153,7 +250,9 @@
                         <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>-->
                         <textarea name="message" placeholder="Дополнительная информация, вопрос..."></textarea> <br />
                         </section>
-                        <input type="submit" value="ЗАКАЗАТЬ" >
+                        <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>
+                        <br />
+                        <input type="submit" name="submit" value="ЗАКАЗАТЬ">
                         
   </form>
                 
