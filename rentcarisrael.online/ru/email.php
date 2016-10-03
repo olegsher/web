@@ -43,7 +43,6 @@ if(isset($_POST['submit'])){
     
     
     $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['car-select'] . " " . "rentcarisrael.online";    
-//    $message =
             $message = '<html><body>';
 $message .= '<img src="http://www.rentcarisrael.online/images/Thrifty-Israel.jpg" alt="Website Change Request" />';
 $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
@@ -58,13 +57,14 @@ $message .= "<tr style='background: #eee;'><td><strong>pickup time:</strong> </t
 $message .= "<tr style='background: #eee;'><td><strong>dropoff location:</strong> </td><td>" . strip_tags($_POST['dropoff-location']) . "</td></tr>";
 $message .= "<tr style='background: #eee;'><td><strong>dropoff date:</strong> </td><td>" . strip_tags($_POST['dropoff-date']) . "</td></tr>";
 $message .= "<tr style='background: #eee;'><td><strong>dropoff time:</strong> </td><td>" . strip_tags($_POST['dropoff-time']) . "</td></tr>";
-$message .= "<tr><td><strong>DriverExperience:</strong> </td><td>" . strip_tags($_POST['DriverExperience']) . "</td></tr>";
 $message .= "<tr><td><strong>Age:</strong> </td><td>" . strip_tags($_POST['age']) . "</td></tr>";
+$message .= "<tr><td><strong>Driver Experience:</strong> </td><td>" . strip_tags($_POST['DriverExperience']) . "</td></tr>";
 $message .= "<tr><td><strong>SuperCDW:</strong> </td><td>" . strip_tags($_POST['SuperCDW']) . "</td></tr>";
 $message .= "<tr><td><strong>SuperTP:</strong> </td><td>" . strip_tags($_POST['SuperTP']) . "</td></tr>";
-$message .= "<tr><td><strong>childseat:</strong> </td><td>" . strip_tags($_POST['childseat']) . "</td></tr>";
+$message .= "<tr><td><strong>Children seat:</strong> </td><td>" . strip_tags($_POST['childseat']) . "</td></tr>";
 $message .= "<tr><td><strong>GPS:</strong> </td><td>" . strip_tags($_POST['GPS']) . "</td></tr>";
-$message .= "<tr><td><strong>Roadsafe:</strong> </td><td>" . strip_tags($_POST['Roadsafe']) . "</td></tr>";
+$message .= "<tr><td><strong>Roadsafe:</strong> </td><td>" . strip_tags($_POST['RoadSafe']) . "</td></tr>";
+$message .= "<tr><td><strong>Add driver:</strong> </td><td>" . strip_tags($_POST['addDriver']) . "</td></tr>";
 $message .= "<tr><td><strong>Religious:</strong> </td><td>" . strip_tags($_POST['Religious']) . "</td></tr>";
 $message .= "<tr><td><strong>message:</strong> </td><td>" . strip_tags($_POST['message']) . "</td></tr>";
 $message .= "</table>";
@@ -259,6 +259,7 @@ $message .= "</body></html>";
                         <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>-->
                         <textarea name="message" placeholder="Дополнительная информация, вопрос..."></textarea> <br />
                         </section>
+<div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>
                         
                         <input type="submit" name="submit" value="ЗАКАЗАТЬ">
                         
