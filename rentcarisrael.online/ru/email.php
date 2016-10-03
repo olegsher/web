@@ -1,6 +1,7 @@
 <?php 
 if(isset($_POST['submit'])){
     $to = "test@sher.biz"; // this is your Email address
+    $reqemail = "admin@sher.biz";
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['First_name'];
     $last_name = $_POST['Last_name'];
@@ -34,8 +35,24 @@ if(isset($_POST['submit'])){
     
     
     $headers = "From:" . $from;
+    $headers = "From: " . strip_tags($from) . "\r\n";
+    $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
+    $headers .= "CC: oleg@sher.biz\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=utf-8\r\n";
+    
+    
     $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['car-select'] . " " . "rentcarisrael.online";    
-    $message =  
+//    $message =
+            $message = '<html><body>';
+
+$message .= '<img src="//css-tricks.com/examples/WebsiteChangeRequestForm/images/wcrf-header.png" alt="Website Change Request" />';
+$message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
+$message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($_POST['First_name']) . "</td></tr>";
+$message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['First_name']) . "</td></tr>";
+$message .= "<tr><td><strong>Type of Change:</strong> </td><td>" . strip_tags($_POST['First_name']) . "</td></tr>";
+$message .= "<tr><td><strong>Urgency:</strong> </td><td>" . strip_tags($_POST['First_name']) . "</td></tr>";
+
             $_POST['First_name'] . " " . $_POST['Last_name'] . "Religious price - " . $_POST['Religious'] . "\n\n" 
             . "Phone " . $_POST['phone'] . "Email " . $_POST['email'] . "\n\n" 
             . "Age " . $_POST['age'] . "Driver Experience " . $_POST['DriverExperience'] . "\n\n" 
@@ -45,6 +62,8 @@ if(isset($_POST['submit'])){
             . "SuperCDW - " . $_POST['SuperCDW'] . "SuperTP - " . $_POST['SuperTP'] . "\n\n" 
             . "Children seats - " . $_POST['childseat'] . " " . $_POST['GPS'] . "GPS - " . $_POST['addDriver'] . "RoadSafe - " . $_POST['RoadSafe'] . "\n\n"           
             . "Message: " . $_POST['message'];
+$message .= "</table>";
+$message .= "</body></html>";
     mail($to,$subject,$message,$headers);
     
     $subject2 = "Заказ автомобиля на rentcarisrael.online";
