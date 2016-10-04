@@ -240,9 +240,7 @@ $message .= "</body></html>";
 <!--                        <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>-->
                         <br />
                         <input type="submit" name="submit" value="ЗАКАЗАТЬ">
-                        <script language='javascript'>
-   window.location = 'http://home.php'
- </script>
+                        
 
                         
   </form>
