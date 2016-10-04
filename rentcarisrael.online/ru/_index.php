@@ -73,7 +73,7 @@ $message .= "</body></html>";
     $headers2 .= "MIME-Version: 1.0\r\n";
     $headers2 .= "Content-Type: text/html; charset=utf-8\r\n";
     $message2 = "test";
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     
     header("Location: http://www.rentcarisrael.online/thankyou.php");
     
@@ -98,30 +98,30 @@ $message .= "</body></html>";
                                 <!-- Car select start -->
                         
 						 <select type="text" value="Выбирайте машину" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Выбирайте машину';}" name="car-select" id="car-select" required = "required" autofocus>							
-							<option value="Category Q" >Smart Fortwo или похожая в категории Q - от 9$ в сутки</option>
-							<option value="Category B" >Suzuki Alto или похожая в категории B - от 9$ в сутки</option>
-							<option value="Category C" >Toyota Aygo или похожая в категории C - от 10$ в сутки</option>
-							<option value="Category D" >Hyundai i20 или похожая в категории D - от 11$ в сутки</option>
-							<option value="Category E" >Ford Fiesta или похожая в категории E - от 12$ в сутки</option>
-							<option value="Category F" >Kia Forte или похожая в категории F - от 14$ в сутки</option>							
-							<option value="Category I" >Mazda 3 или похожая в категории I - от 16$ в сутки</option>
-							<option value="Category H" >Honda Civic или похожая в категории H - от 22$ в сутки</option>
-							<option value="Category M" >Mazda 6 или похожая в категории M - от 28$ в сутки</option>
+							<option value="Category Q" >Smart Fortwo или похожая в категории Q - от 24$ в сутки</option>
+							<option value="Category B" >Suzuki Alto или похожая в категории B - от 24$ в сутки</option>
+							<option value="Category C" >Toyota Aygo или похожая в категории C - от 25$ в сутки</option>
+							<option value="Category D" >Hyundai i20 или похожая в категории D - от 26$ в сутки</option>
+							<option value="Category E" >Ford Fiesta или похожая в категории E - от 27$ в сутки</option>
+							<option value="Category F" >Kia Forte или похожая в категории F - от 30$ в сутки</option>							
+							<option value="Category I" >Mazda 3 или похожая в категории I - от 32$ в сутки</option>
+							<option value="Category H" >Honda Civic или похожая в категории H - от 41$ в сутки</option>
+							<option value="Category M" >Mazda 6 или похожая в категории M - от 47$ в сутки</option>
 <!--                                                    <option value="Category FH" >Honda Insight Hybrid или похожая в категории - от 17$ в сутки</option>-->
-							<option value="Category MH" >Honda Accord Hybrid или похожая в категории MH - от 38$ в сутки</option>
-							<option value="Category T" >Fiat Doblo(ручник, 5 мест) или похожая в категории T - от 35$ в сутки</option>
-							<option value="Category J" >Nissan Qashqai(автомат, 5 мест) или похожая в категории J - от 38$ в сутки</option>
-							<option value="Category U" >Mazda 5(автомат, 7 мест) или похожая в категории U - от 35$ в сутки</option>
-                                                        <option value="Category V" >Ford Galaxy V(автомат, 7 мест) или похожая в категории V - от 52$ в сутки</option>
-                                                        <option value="Category S" >Hyundai i800(ручник, 8 мест) или похожая в категории S - от 59$ в сутки</option>
-                                                        <option value="Category V8" >Toyota Sienna(автомат, 8 мест) или похожая в категории V8 - от 75$ в сутки</option>
-                                                        <option value="Category Y" >Citroen Jumpy(ручник, 9 мест)или похожая в категории Y - от 49$ в сутки </option>
-							<option value="Category Z" >Hyundai i800(автомат, 9 мест) или похожая в категории Z - от 95$ в сутки</option>
-                                                        <option value="Category R" >Chevrolet Malibu или похожая в категории R - от 52$ в сутки</option>
-                                                        <option value="Category P" >Buick LaCrosse или похожая в категории P - от 71$ в сутки</option>
-							<option value="Category K" >BMW 318i или похожая в категории K - от 72$ в сутки</option>
-							<option value="Category W" >BMW i535 или похожая в категории W - от 110$ в сутки</option>
-							<option value="Category O" >Toyota Highlander(автомат) или похожая в категории O - от 149$ в сутки</option>
+							<option value="Category MH" >Honda Accord Hybrid или похожая в категории MH - от 57$ в сутки</option>
+							<option value="Category T" >Fiat Doblo(ручник, 5 мест) или похожая в категории T - от 60$ в сутки</option>
+							<option value="Category J" >Nissan Qashqai(автомат, 5 мест) или похожая в категории J - от 63$ в сутки</option>
+							<option value="Category U" >Mazda 5(автомат, 7 мест) или похожая в категории U - от 60$ в сутки</option>
+                                                        <option value="Category V" >Ford Galaxy V(автомат, 7 мест) или похожая в категории V - от 77$ в сутки</option>
+                                                        <option value="Category S" >Hyundai i800(ручник, 8 мест) или похожая в категории S - от 104$ в сутки</option>
+                                                        <option value="Category V8" >Toyota Sienna(автомат, 8 мест) или похожая в категории V8 - от 120$ в сутки</option>
+                                                        <option value="Category Y" >Citroen Jumpy(ручник, 9 мест)или похожая в категории Y - от 94$ в сутки </option>
+							<option value="Category Z" >Hyundai i800(автомат, 9 мест) или похожая в категории Z - от 131$ в сутки</option>
+<!--                                                        <option value="Category R" >Chevrolet Malibu или похожая в категории R - от 52$ в сутки</option>-->
+                                                        <option value="Category P" >Buick LaCrosse или похожая в категории P - от 116$ в сутки</option>
+							<option value="Category K" >BMW 318i или похожая в категории K - от 84$ в сутки</option>
+							<option value="Category W" >BMW i535 или похожая в категории W - от 155$ в сутки</option>
+							<option value="Category O" >Toyota Highlander(автомат) или похожая в категории O - от 174$ в сутки</option>
 						</select>
                              <br />
                       </div>
@@ -248,14 +248,15 @@ $message .= "</body></html>";
 <!--		</div>-->
 	</div>
     <hr />
-    * Указанные цены соответствуют прейскуранту дилера компании ТРИФТИ и значительно отличаются от расценок на сайте\отделении поставщика <br />
-    * Указанные цены не включают страховки <br />
+    * Указанные цены соответствуют прейскуранту дилера компании ТРИФТИ для низкого сезона и значительно отличаются от расценок на сайте\отделении поставщика <br />
+    * Указанные цены ВКЛЮЧАЮТ обязательные страховки <br />
     * Указанные цены не включают НДС(только для лиц с Израильским гражданством) <br />
     Часы работы отделений - аэропорт Бен Гурион 24\7, остальные отделения 8-18, пятница 8-13  <br /> 
-    Минимальный возраст водителя 21 год <br />
-    Водитель 21-23 года - дополнительная оплата "молодой водитель" - 10$ в день <br />
+    Минимальный возраст водителя 21 год. Водитель 21-23 года - дополнительная оплата "молодой водитель" - 10$ в день <br />
     Модели автомобилей представлены исключительно для примера и при выдаче компания имеет право предоставить автомобиль того же класса, но другой марки.
-	<div class="clearfix"></div>
+    <br />Компания поставщик может изменить цены и конечной считается цена в ваучере.
+    
+    <div class="clearfix"></div>
         
 <hr />
 <div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
