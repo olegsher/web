@@ -32,7 +32,7 @@ if(isset($_POST['submit'])){
 //    $headers = "From:" . $from;
     $headers = "From: " . strip_tags($reqemail) . "\r\n";
     $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
-    $headers = "Returm-Path: " . strip_tags($reqemail) . "\r\n";
+    $headers = "Return-Path: " . strip_tags($reqemail) . "\r\n";
     $headers .= "CC: rentcar@sher.biz\r\n";
     
     $headers .= "MIME-Version: 1.0\r\n";
@@ -73,7 +73,7 @@ $message .= "</body></html>";
     $subject2 = "Ваш заказ автомобиля на rentcarisrael.online";
     $headers2 = "From: " . strip_tags($reqemail) . "\r\n";
     $headers2 .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
-    $headers2 = "Returm-Path: " . strip_tags($reqemail) . "\r\n";
+    $headers2 = "Return-Path: " . strip_tags($reqemail) . "\r\n";
     $headers2 .= "MIME-Version: 1.0\r\n";
     $headers2 .= "Content-Type: text/html; charset=utf-8\r\n";
     // $message2 = "test";
