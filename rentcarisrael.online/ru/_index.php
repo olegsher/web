@@ -74,9 +74,7 @@ $message .= "</body></html>";
     $headers2 .= "Content-Type: text/html; charset=utf-8\r\n";
     $message2 = "test";
     // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-   
-header("Location: http://www.rentcarisrael.online/thankyou.php");
-
+       
     }
 ?>
 
@@ -243,7 +241,9 @@ header("Location: http://www.rentcarisrael.online/thankyou.php");
 
                         
   </form>
-               
+<?php
+header("Location: http://www.rentcarisrael.online/thankyou.php");
+?>                
  
 
 <!--		</div>-->
