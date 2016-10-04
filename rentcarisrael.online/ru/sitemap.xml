@@ -7,7 +7,23 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.rentcarisrael.com/</loc>
+  <loc>http://www.rentcarisrael.online/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rentcarisrael.online/index.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rentcarisrael.online/about.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rentcarisrael.online/insurance.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rentcarisrael.online/terms.php</loc>
   <changefreq>weekly</changefreq>
 </url>
 </urlset>
