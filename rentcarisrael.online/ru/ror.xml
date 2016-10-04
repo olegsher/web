@@ -1,71 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for http://www.rentcarisrael.online/</title>
-  <link>http://www.rentcarisrael.online/</link>
+  <title>ROR Sitemap for http://www.rentcarisrael.com/</title>
+  <link>http://www.rentcarisrael.com/</link>
 
 <item>
-     <link>http://www.rentcarisrael.online/</link>
-     <title>Недорогая аренда прокат автомобиля в Израиле | RentCarIsrael.online</title>
-     <description>Аренда прокат автомобиля в Израиле. Бюджетные авто, Миниваны, семейные машины, класс люкс и джипы звоните +972-58-7710101</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
+     <link>http://www.rentcarisrael.com/</link>
+     <title></title>
+     
+     <ror:updatePeriod>weekly</ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://www.rentcarisrael.online/index.html</link>
-     <title>Недорогая аренда прокат автомобиля в Израиле | RentCarIsrael.online</title>
-     <description>Аренда прокат автомобиля в Израиле. Бюджетные авто, Миниваны, семейные машины, класс люкс и джипы звоните +972-58-7710101</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://www.rentcarisrael.online/about.html</link>
-     <title>Недорогая аренда прокат автомобиля в Израиле | RentCarIsrael.online</title>
-     <description>Аренда прокат автомобиля в Израиле. Бюджетные авто, Миниваны, семейные машины, класс люкс и джипы звоните +972-58-7710101</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://www.rentcarisrael.online/branches.html</link>
-     <title>Недорогая аренда прокат автомобиля в Израиле | RentCarIsrael.online</title>
-     <description>Аренда прокат автомобиля в Израиле. Бюджетные авто, Миниваны, семейные машины, класс люкс и джипы звоните +972-58-7710101</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://www.rentcarisrael.online/insurance.html</link>
-     <title>Недорогая аренда прокат автомобиля в Израиле | RentCarIsrael.online</title>
-     <description>Аренда прокат автомобиля в Израиле. Бюджетные авто, Миниваны, семейные машины, класс люкс и джипы звоните +972-58-7710101</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://www.rentcarisrael.online/terms.html</link>
-     <title>Недорогая аренда прокат автомобиля в Израиле | RentCarIsrael.online</title>
-     <description>Аренда прокат автомобиля в Израиле. Бюджетные авто, Миниваны, семейные машины, класс люкс и джипы звоните +972-58-7710101</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://www.rentcarisrael.online/services.html</link>
-     <title>Недорогая аренда прокат автомобиля в Израиле | RentCarIsrael.online</title>
-     <description>Аренда прокат автомобиля в Израиле. Бюджетные авто, Миниваны, семейные машины, класс люкс и джипы звоните +972-58-7710101</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://www.rentcarisrael.online/contact.html</link>
-     <title>Недорогая аренда прокат автомобиля в Израиле | RentCarIsrael.online</title>
-     <description>Аренда прокат автомобиля в Израиле. Бюджетные авто, Миниваны, семейные машины, класс люкс и джипы звоните +972-58-7710101</description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>
