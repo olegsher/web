@@ -75,7 +75,7 @@ $message .= "</body></html>";
     $message2 = "test";
   // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
   
-header('Location: http://www.rentcarisrael.online/thankyou.php');
+// header('Location: http://www.rentcarisrael.online/thankyou.php');
 
     }
 ?>
@@ -240,6 +240,7 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
 <!--                        <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>-->
                         <br />
                         <input type="submit" name="submit" value="ЗАКАЗАТЬ">
+                        window.location.replace("http://example.com/");
 
                         
   </form>
