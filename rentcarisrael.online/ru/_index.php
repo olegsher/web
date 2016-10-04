@@ -77,9 +77,7 @@ $message .= "</body></html>";
        
     }
 ?>
-<?php
-header("Location: http://www.rentcarisrael.online/thankyou.php");
-?>
+
 
 
 <div class="container">
@@ -240,6 +238,9 @@ header("Location: http://www.rentcarisrael.online/thankyou.php");
                         <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>
                         <br />
                         <input type="submit" name="submit" value="ЗАКАЗАТЬ">
+<?php
+header("Location: http://www.rentcarisrael.online/thankyou.php");
+?>
                         
   </form>
                 
