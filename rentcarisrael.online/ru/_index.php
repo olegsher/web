@@ -65,7 +65,7 @@ $message .= "</table>";
 $message .= "</body></html>";
 
 
-    mail($to,$subject,$message,$headers);
+    // mail($to,$subject,$message,$headers);
     
     $subject2 = "Ваш заказ автомобиля на rentcarisrael.online";
     $headers2 = "From: " . strip_tags($reqemail) . "\r\n";
@@ -238,12 +238,12 @@ $message .= "</body></html>";
                         <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>
                         <br />
                         <input type="submit" name="submit" value="ЗАКАЗАТЬ">
-<?php
-header("Location: http://www.rentcarisrael.online/thankyou.php");
-?>
+
                         
   </form>
-                
+<?php
+header("Location: http://www.rentcarisrael.online/thankyou.php");
+?>                
  
 
 <!--		</div>-->
