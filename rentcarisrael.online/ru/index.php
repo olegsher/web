@@ -91,7 +91,12 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
 <?php include("__header.html"); ?>
 </header>
 <body>
-<?php include("__counters.html"); ?>
+<?php include("__facebook.html"); ?>
+<?php include("__google.html"); ?>
+<?php include("__mailru.html"); ?>
+<?php include("__yandex.html"); ?>
+<?php include("__shema.html"); ?>
+
 <?php include("__top.html"); ?>
 <?php include("_index.php"); ?>
 <?php include("__footer.html"); ?>
