@@ -155,7 +155,7 @@
                         <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>-->
                         <textarea name="message" placeholder="Дополнительная информация, вопрос..."></textarea> <br />
                         </section>
-                        <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>
+<!--                        <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>-->
                         <br />
                         <input type="submit" name="submit" value="ЗАКАЗАТЬ">
                         
@@ -180,8 +180,8 @@
         
 <hr />
 <div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
-<!--<img src="images/catJ.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />-->
-<script type="text/javascript" src="https://zadarma.com/swfobject.js"></script>
+<img src="images/catJ.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />
+<!--<script type="text/javascript" src="https://zadarma.com/swfobject.js"></script>
 <script type="text/javascript">
         var flashvars = {};
         flashvars.phone="61919";
@@ -198,7 +198,7 @@
     <a href="http://www.adobe.com/go/getflashplayer">
         <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
     </a>
-</div>
+</div>-->
     <br /><h2>ЕСТЬ ВОПРОСЫ ПО АРЕНДЕ?</h2>
 </div> 
 <br />Хотите уточнить нужно ли вам детское кресло?
