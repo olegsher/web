@@ -48,7 +48,7 @@
                         <div class="bnr-left">
 				<label class="inputLabel">Аренда</label>
 <!--				<input class="city" type="text" value="Отделение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
-                                <select class="city" type="text" value="Отделение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Отделение';}"  name="pickup-location" id="pickup-location" required=>
+                                <select class="city" type="text" value="Отделение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Отделение';}"  name="pickup-location" id="pickup-location" required = "required">
                                         <option value="">Отделение</option>
                                         <option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
                                         <option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
@@ -73,7 +73,7 @@
                                         <option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
                                         <option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
                                 </select>
-                                <input class="date" name="pickup-date" id="datepicker" type="text" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required=>
+                                <input class="date" name="pickup-date" id="datepicker" type="text" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required = "required">
                                 <input type="time" name="pickup-time" id="pickup-time" placeholder="Время" required = "required" value="hh:mm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}">
 			
 			</div>
@@ -82,7 +82,7 @@
                         <div class="bnr-right">
 				<label class="inputLabel">Возврат</label>				
 <!--				<input class="city" type="text" value="Отделение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
-                                <select class="city" onfocus="this.value = '';"   name="dropoff-location" id="dropoff-location" required=>
+                                <select class="city" onfocus="this.value = '';"   name="dropoff-location" id="dropoff-location" required = "required">
                                         <option value="">Отделение</option>
                                         <option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
                                         <option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
@@ -107,8 +107,8 @@
                                         <option value="Реховот, ул. Герцль, 96">Реховот, ул. Герцль, 96</option>
                                         <option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
                                 </select>
-                                <input class="date" name="dropoff-date" id="datepicker1" type="text" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required=>
-                                <input type="time" name="dropoff-time" id="dropoff-time" placeholder="Время" value="hh:mm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}" required=>
+                                <input class="date" name="dropoff-date" id="datepicker1" type="text" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required = "required">
+                                <input type="time" name="dropoff-time" id="dropoff-time" placeholder="Время" value="hh:mm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}" required = "required">
                         
 			</div>
 <!--				<div class="clearfix"></div>-->
@@ -127,12 +127,12 @@
 			<!---/End-date-piker---->
                        <section> 
                            <hr />
-                        Ваше имя <input type="text" name="First_name" placeholder="на английском" required=>
-                        Фамилия <input type="text" name="Last_name" placeholder="на английском" required=> <br />
-                        Почта <input type="email" name="email" placeholder="на нее придет ваучер" required=>
-                        Телефон <input type="text" name="phone" placeholder="включая код страны" required=> <br />
-                        Возраст водителя <input type="number" name="age" min="21" max="70" placeholder="от 21" required=> 
-                        Стаж вождения <input type="number" name="DriverExperience" min="1" max="70" placeholder="" required=> 
+                        Ваше имя <input type="text" name="First_name" placeholder="на английском" required = "required">
+                        Фамилия <input type="text" name="Last_name" placeholder="на английском" required = "required"> <br />
+                        Почта <input type="email" name="email" placeholder="на нее придет ваучер" required = "required">
+                        Телефон <input type="text" name="phone" placeholder="включая код страны" required = "required"> <br />
+                        Возраст водителя <input type="number" name="age" min="21" max="70" placeholder="от 21" required = "required"> 
+                        Стаж вождения <input type="number" name="DriverExperience" min="1" max="70" placeholder="" required = "required"> 
                         </section>
 		</div>
 <!--		<div class="sear">-->
