@@ -6,7 +6,7 @@
 <meta  name="description"  content="" />
 <?php include("__header.html"); ?>
 </header>
-<body>
+<body dir="rtl">
 
 <?php include("_index.html"); ?>
 <?php include("__footer.html"); ?>
