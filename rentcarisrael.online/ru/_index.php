@@ -2,7 +2,10 @@
 	<div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
 <!--		<i class="fa fa-columns"></i>-->
 <i> <img src="images/Thrifty-Israel.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
-		<h3>МЕЖДУНАРОДНАЯ КОМПАНИЯ ПРОКАТА АВТОМОБИЛЕЙ</h3>
+		<h3>АРЕНДА АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ</h3>
+                <h4>Отделения во всех крупных городах Израиля
+                <br />Огромный парк автомобилей ведущих производителей
+                <br />Неограниченный километраж при заказе 3-30 дней</h4>
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
 		<h1>Форма аренды проката автомобиля в Израиле</h1>
