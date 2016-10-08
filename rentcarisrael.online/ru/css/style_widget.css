@@ -28,8 +28,8 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 body{
-	font-family: 'Mandali', sans-serif;
-	background:#00a4e4;
+	font-family: 'Playfair Display SC', serif;
+/*	background:#00a4e4;*/
 }
 /*-- main --*/
 .main {
