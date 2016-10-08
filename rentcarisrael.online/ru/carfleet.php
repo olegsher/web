@@ -7,6 +7,7 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 function hideURLbar(){ window.scrollTo(0,1); } </script>
     <?php include("__header.html"); ?>
+<link href="css/style_widget.css" rel="stylesheet" type="text/css" media="all" />
 </header>
 <body>
 <?php include("__facebook.html"); ?>
