@@ -2,16 +2,16 @@
 	<div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
 <!--		<i class="fa fa-columns"></i>-->
 <i> <img src="images/Thrifty-Israel.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
-		<h3 text-align: left; >АРЕНДА АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ</h3>
+		<h3>АРЕНДА АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ</h3>
                 <h4>
                 Отделения во всех крупных городах Израиля 
                 <hr />Огромный парк автомобилей ведущих производителей 
                 <hr /> Неограниченный километраж при заказе 3-30 дней 
-                <hr /> Нет скрытых платежей, обязательные страховки включены в цену 
+                <hr /> Нет скрытых платежей, обязательные страховки включены 
                 <hr /> Огромные скидки при заказе 30+ дней</h4>
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
-		<h1>Форма заказа аренды автомобиля в Израиле</h1>
+		<h1>Заказ аренды автомобиля в Израиле</h1>
                 <form id="contactform" action="" method="post">
 		<div class="ban-top">
 			<div class="bnr-left">
