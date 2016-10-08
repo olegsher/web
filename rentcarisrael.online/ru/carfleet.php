@@ -6,8 +6,10 @@
 <meta  name="description"  content="Аренда прокат автомобиля в Израиле. Бюджетные авто, Миниваны, семейные машины, класс люкс и джипы звоните +972-58-7710101" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 function hideURLbar(){ window.scrollTo(0,1); } </script>
-    <?php include("__header.html"); ?>
+<?php include("__header.html"); ?>
 <link href="css/style_widget.css" rel="stylesheet" type="text/css" media="all" />
+<script type='text/javascript' src="js/jquery-1.11.2.min.js"></script>
+<link href='//fonts.googleapis.com/css?family=Mandali' rel='stylesheet' type='text/css'>
 </header>
 <body>
 <?php include("__facebook.html"); ?>
