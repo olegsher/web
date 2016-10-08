@@ -7,8 +7,8 @@ p{margin:0;}
 ul{margin:0;padding:0;}
 label{margin:0;}
 
-.logo a{color:#3F84B1;letter-spacing:1px;font-size:2em;font-weight:400;display:block;text-decoration:none;font-family:'Playfair Display SC', sans-serif;}
-.logo span{color:#34ad00;}
+.logo a{color:#34ad00;letter-spacing:1px;font-size:2em;font-weight:400;display:block;text-decoration:none;font-family:'Playfair Display SC', serif;}
+.logo span{color:#3F84B1;}
 i.fa.fa-home{font-size:24px;}
 .top-header{background-color:#3F84B1;border-bottom:0 none;height:36px;line-height:35px;}
 ul.tp-hd-lft{float:left;}
