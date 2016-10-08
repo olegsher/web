@@ -5,10 +5,10 @@
 		<h3 text-align: left; >АРЕНДА АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ</h3>
                 <h4 text-align: left; >
                 <img src="images/2.png" style="float:left;" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive"/> Отделения во всех крупных городах Израиля 
-                <br /> <img src="images/2.png" style="float:left;" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive"/> Огромный парк автомобилей ведущих производителей 
-                <br /> <img src="images/2.png" style="float:left;" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive"/> Неограниченный километраж при заказе 3-30 дней 
-                <br /> <img src="images/2.png" style="float:left;" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive"/> Нет скрытых платежей, обязательные страховки включены в цену 
-                <br /> <img src="images/2.png" style="float:left;" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive"/> Огромные скидки при заказе 30+ дней</h4>
+                <hr /> <img src="images/2.png" style="float:left;" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive"/> Огромный парк автомобилей ведущих производителей 
+                <hr /> <img src="images/2.png" style="float:left;" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive"/> Неограниченный километраж при заказе 3-30 дней 
+                <hr /> <img src="images/2.png" style="float:left;" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive"/> Нет скрытых платежей, обязательные страховки включены в цену 
+                <hr /> <img src="images/2.png" style="float:left;" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive"/> Огромные скидки при заказе 30+ дней</h4>
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
 		<h1>Форма заказа аренды автомобиля в Израиле</h1>
