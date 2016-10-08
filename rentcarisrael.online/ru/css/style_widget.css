@@ -36,8 +36,8 @@ body{
     margin-top: 3em;
   margin: 0 auto;
     width: 31%;
-    background: #fff;
-	 box-shadow: rgb(5, 137, 188) 1px 1px,
+/*    background: #fff;*/
+/*	 box-shadow: rgb(5, 137, 188) 1px 1px,
     rgb(5, 137, 188) 2px 2px,
     rgb(5, 137, 188) 3px 3px,
     rgb(5, 137, 188) 4px 4px,
@@ -186,17 +186,17 @@ body{
     rgb(5, 150, 206) 147px 147px,
     rgb(5, 150, 206) 148px 148px,
     rgb(5, 150, 206) 149px 149px,
-    rgb(5, 150, 207) 150px 150px;
+    rgb(5, 150, 207) 150px 150px;*/
 }
 body h1{
     text-align:center;
-	color:#fff;
+/*	color:#fff;*/
 	font-size:3em;
 	margin: 1em 0 0.5em;
 }
 .shoe_text {
     text-align: center;
-    background: #f4f4f4;
+/*    background: #f4f4f4;*/
     border: 1px solid #ddd;
        padding: 0.5em 0;
        margin: 1em;
@@ -209,7 +209,7 @@ body h1{
 }
 .shoe_text p{
     font-size:1.1em;
-    color: #999;
+/*    color: #999;*/
 }
 .shoe_text h6{
     font-size:1.3em;
