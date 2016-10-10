@@ -127,7 +127,7 @@
 				<div class="clearfix"></div>
 				<!---start-date-piker---->
 				<link rel="stylesheet" href="css/jquery-ui.css" />
-				<script src="js/jquery-ui.js"></script>
+				<script async src="js/jquery-ui.js"></script>
 					<script>
 						$(function() {
 						$( "#datepicker,#datepicker1" ).datepicker();
