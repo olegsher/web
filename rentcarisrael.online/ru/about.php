@@ -15,4 +15,5 @@
 <?php include("_about.html"); ?>
 <?php include("__footer.html"); ?>
 </body>
+</html>
 

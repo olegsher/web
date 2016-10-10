@@ -13,4 +13,5 @@
 <?php include("_index.html"); ?>
 <?php include("__footer.html"); ?>
 </body>
+</html>
 

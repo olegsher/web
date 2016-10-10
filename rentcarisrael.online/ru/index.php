@@ -101,4 +101,5 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
 <?php include("_index.php"); ?>
 <?php include("__footer.html"); ?>
 </body>
+</html>
 

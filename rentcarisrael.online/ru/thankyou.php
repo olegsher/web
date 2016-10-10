@@ -17,4 +17,5 @@
 <?php include("_thankyou4order.html"); ?>
 <?php include("__footer.html"); ?>
 </body>
+</html>
 

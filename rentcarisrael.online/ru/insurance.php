@@ -15,4 +15,5 @@
 <?php include("_insurance.html"); ?>
 <?php include("__footer.html"); ?>
 </body>
+</html>
 
