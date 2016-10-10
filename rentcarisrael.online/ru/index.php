@@ -89,7 +89,7 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
 <meta name="keywords" content="машина прокат, машина прокат Израиле, аренда машины Израиль, avto prokat, prokat mashin, auto arenda, прокат аренда машин, где можно взять машину напрокат, заказать машину, аренда иномарок, arenda avto, стоимость аренды машины, израиль прокат автомобилей, съем машины Израиле, аренда авто, прокат машины, сьем автомобиля,автомобиль,  машина Израиле, дешевый прокат автомобиля" />
 <meta  name="description"  content="Аренда прокат автомобиля в Израиле. Бюджетные авто, Миниваны, семейные машины, класс люкс и джипы звоните +972-58-7710101" />
 <?php include("__header.html"); ?>
-</header>
+</head>
 <body>
 <?php include("__facebook.html"); ?>
 <?php include("__google.html"); ?>
