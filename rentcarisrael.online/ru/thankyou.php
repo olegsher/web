@@ -10,7 +10,7 @@
 <meta property="og:type" content="website" />
 
 <?php include("__header.html"); ?>
-</header>
+</head>
 <body>
 <?php include("__counters.html"); ?>
 <?php include("__top.html"); ?>
