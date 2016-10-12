@@ -102,4 +102,8 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
 <?php include("__footer.html"); ?>
 </body>
 </html>
+<link rel="stylesheet" href="css/animate.css">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
 
