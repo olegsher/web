@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
 <!--		<i class="fa fa-columns"></i>-->
-<i> <img src="images/Thrifty-Israel.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
+            <i> <img src="images/guide_ru.png" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
 		<h3>ИНДИВИДУАЛЬНЫЕ ЭКСКУРСИИ ПО ИЗРАИЛЮ</h3>
                 <h4>
                 Лицензированные профессиональные гиды 
@@ -12,7 +12,7 @@
                 </h4>
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
-		<h1>Заполните форму и лучший гид Израиля свяжется с вами для назначения экскурсии</h1>
+		<h1>Заполните форму и частный гид свяжется с вами для назначения экскурсии</h1>
                 <form id="contactform" action="" method="post">
 		<div class="ban-top">
 			<div class="bnr-left">
@@ -48,7 +48,7 @@
                       <hr />  
                     
                         <div class="bnr-left">
-				<label class="inputLabel">Аренда</label>
+				<label class="inputLabel"></label>
 <!--				<input class="city" type="text" value="Отделение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
                                 <textarea name="city" placeholder="Город отправления"></textarea> <br />
                                 <input name="pickup-date" type="date"  min="2016-10-02" required = "required">
@@ -69,7 +69,7 @@
                            <hr />
                         Ваше имя <input type="text" name="First_name" placeholder="на английском" required = "required">
                         Фамилия <input type="text" name="Last_name" placeholder="на английском" required = "required"> <br />
-                        Почта <input type="email" name="email" placeholder="" required = "required"> <br />
+                        Почта <input type="email" name="email" placeholder="" required = "required"> 
                         Телефон <input type="text" name="phone" placeholder="включая код страны" required = "required"> <br />
                          
                         </section>
@@ -100,7 +100,7 @@
         
 <hr />
 <div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
-<img src="images/catJ.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />
+    <img src="images/guide_ru.png" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />
 
     <br /><h2>ЕСТЬ ВОПРОСЫ ПО ЭКСКУРСИИ?</h2>
 </div> 
