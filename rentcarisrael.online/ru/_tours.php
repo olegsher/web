@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
 <!--		<i class="fa fa-columns"></i>-->
-            <i> <img src="images/guide_ru.png" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
+<!--            <i> <img src="images/guide_ru.png" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>-->
 		<h3>ИНДИВИДУАЛЬНЫЕ ЭКСКУРСИИ ПО ИЗРАИЛЮ</h3>
                 <h4>
                 Лицензированные профессиональные гиды 
