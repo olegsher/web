@@ -101,8 +101,7 @@
 <hr />
 <div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
     <img src="images/guide_ru.png" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />
-
-    <br /><h2>ЕСТЬ ВОПРОСЫ ПО ЭКСКУРСИИ?</h2>
+    <br /><h2>ПОЧЕМУ СТОИТ ЗАКАЗАТЬ ИНДИВИДУАЛЬНУЮ ЭКСКУРСИЮ У НАС?</h2>
 </div> 
 
 <br />Любые вопросы будут разрешены если вы свяжитесь с нами
