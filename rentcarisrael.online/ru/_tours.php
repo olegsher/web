@@ -39,6 +39,7 @@
                                                         <option value="Тель-Авив Яффо, Алмазная Биржа" >Тель-Авив Яффо, Алмазная Биржа</option>
                                                         <option value="Заповедник Эйн Геди и Мертвое море" >Заповедник "Эйн Геди" и Мертвое море</option>
                                                         <option value="Крепость Массада и Мёртвое море" >Крепость Массада и Мёртвое море</option>
+                                                        <option value="Другая экскурсия" >Хочу другую экскурсию</option>
 							
 						</select>
                              <br />
@@ -50,7 +51,7 @@
                         <div class="bnr-left">
 				<label class="inputLabel"></label>
 <!--				<input class="city" type="text" value="Отделение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
-                                <textarea name="city" placeholder="Город отправления"></textarea> <br />
+                                <textarea name="city" placeholder="Город отправления"></textarea> 
                                 <input name="pickup-date" type="date"  min="2016-10-02" required = "required">
 <!--                                <input class="date" name="pickup-date" id="datepicker" type="date" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required = "required">-->
                                 <input type="time" name="pickup-time" id="pickup-time" placeholder="Время" value="hh:mm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}">
@@ -67,8 +68,8 @@
 				
                        <section> 
                            <hr />
-                        Ваше имя <input type="text" name="First_name" placeholder="на английском" required = "required">
-                        Фамилия <input type="text" name="Last_name" placeholder="на английском" required = "required"> <br />
+                        Ваше имя <input type="text" name="First_name" placeholder="" required = "required">
+                        Фамилия <input type="text" name="Last_name" placeholder="" required = "required"> <br />
                         Почта <input type="email" name="email" placeholder="" required = "required"> 
                         Телефон <input type="text" name="phone" placeholder="включая код страны" required = "required"> <br />
                          
