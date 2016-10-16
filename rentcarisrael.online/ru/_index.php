@@ -222,9 +222,7 @@
 		</div>
 		<div class="clearfix"></div>    
     
-    
-<div class="clearfix"></div>    
-    
+    </div>
 <hr />
 <div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
 <img src="images/catJ.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />
