@@ -4,20 +4,6 @@
 <!--                <i> <img src="images/guide_ru.png" alt="Индивидуальные туры по Израилю с частным гидом" class="img-responsive" /></i>-->
 		<h3>ИНДИВИДУАЛЬНЫЕ ЭКСКУРСИИ ПО ИЗРАИЛЮ</h3>
                 
-                <div class="col-md-4 rupes-left wow fadeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
-			<div class="rup-left">
-				<img src="images/car.png" alt="Позвоните Vastama по аренде атомобиля в Израиле" class="img-responsive" />
-			
-			</div>
-			<div class="rup-rgt">
-				<h3>Безлилитный километраж</h3>
-				<h4><a href=""> на все категории машин</a></h4>
-				<p>при заказе 3-30 дней</p>
-			</div>
-				<div class="clearfix"></div>
-		</div>
-                
-                
                 <h4>
                 Лицензированные профессиональные гиды 
                 <hr /> День работы гида 250$ 
