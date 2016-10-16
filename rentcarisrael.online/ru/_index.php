@@ -126,17 +126,17 @@
                     
 				<div class="clearfix"></div>
 				<!---start-date-piker---->
-				<link rel="stylesheet" href="css/jquery-ui.css" />
+<!--				<link rel="stylesheet" href="css/jquery-ui.css" />
 				<script async src="js/jquery-ui.js"></script>
 					<script>
 						$(function() {
 						$( "#datepicker,#datepicker1" ).datepicker();
 						});
-					</script>
+					</script>-->
 			<!---/End-date-piker---->
                        <section> 
                            <hr />
-                        Ваше имя <input type="text" name="First_name" placeholder="на английском" required = "required">
+                        Имя <input type="text" name="First_name" placeholder="на английском" required = "required">
                         Фамилия <input type="text" name="Last_name" placeholder="на английском" required = "required"> <br />
                         Почта <input type="email" name="email" placeholder="на нее придет ваучер" required = "required">
                         Телефон <input type="text" name="phone" placeholder="включая код страны" required = "required"> <br />
