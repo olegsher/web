@@ -692,7 +692,7 @@ li.resp-tab-item.resp-tab-active{
   background: #076D90;
 }
 li.resp-tab-item1.resp-tab-active{
-  background:none; !important;
+  background:none; 
   color:#333!important;
 }
 .resp-tab-item:first-child,.resp-tab-item1:first-child{
@@ -1292,7 +1292,7 @@ h2.second{
 #portfolio p {
   line-height: 1.8em;
   margin: 25px 0 0 0;
-  font-size:1.1
+  font-size:1.1;
   color: #ffffff;
   font-weight: 300;
 }
