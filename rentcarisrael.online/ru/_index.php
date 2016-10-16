@@ -225,7 +225,7 @@
     </div>
 
 <div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
-<img src="images/catJ.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />
+<img src="images/catJ.png" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />
 <!--<script type="text/javascript" src="https://zadarma.com/swfobject.js"></script>
 <script type="text/javascript">
         var flashvars = {};
