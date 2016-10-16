@@ -184,7 +184,47 @@
     <br />Компания поставщик может изменить цены и конечной считается цена в ваучере.
     
     <div class="clearfix"></div>
-        
+
+<div class="rupes">
+		<div class="col-md-4 rupes-left wow fadeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+			<div class="rup-left">
+				<img src="images/creditcards.png" alt="Позвоните Vastama по аренде атомобиля в Израиле" class="img-responsive" />
+			</div>
+			<div class="rup-rgt">
+				<h3>Принимаем основные кредитные карты</h3>
+				<h4><a href="">Возможна оплата наличными</a></h4>
+				<p>При возврате машины</p>
+			</div>
+				<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 rupes-left wow fadeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+			<div class="rup-left">
+				<img src="images/car.png" alt="Позвоните Vastama по аренде атомобиля в Израиле" class="img-responsive" />
+			
+			</div>
+			<div class="rup-rgt">
+				<h3>Безлимитный километраж</h3>
+				<h4><a href="">На все категории машин</a></h4>
+				<p>при заказе 3-30 дней</p>
+			</div>
+				<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 rupes-left wow fadeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+			<div class="rup-left">
+				<img src="images/guide.png" alt="Позвоните Vastama по аренде атомобиля в Израиле" class="img-responsive" />
+			</div>
+			<div class="rup-rgt">
+				<h3>День работы частного гида</h3>
+				<h4><a href="tours.php">Всего 250$</a></h4>
+				<p>Экскурсия на машине клиента или пешеходная</p>
+			</div>
+				<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>    
+    
+    
+<div class="clearfix"></div>    
+    
 <hr />
 <div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
 <img src="images/catJ.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />
