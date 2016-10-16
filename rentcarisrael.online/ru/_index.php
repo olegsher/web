@@ -12,7 +12,7 @@
                 </h4>
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
-		<h1>Заполни форму и получи ваучер на почту</h1>
+		<h1>Заполните форму и получите ваучер на почту</h1>
                 <form id="contactform" action="" method="post">
 		<div class="ban-top">
 			<div class="bnr-left">
