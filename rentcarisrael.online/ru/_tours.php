@@ -49,12 +49,12 @@
                       <hr />  
                     
                         <div class="bnr-left">
-				<label class="inputLabel"></label>
+				<label class="inputLabel">Город отправления и дата</label>
 <!--				<input class="city" type="text" value="Отделение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
-                                <textarea name="city" placeholder="Город отправления"></textarea> 
-                                <input name="pickup-date" type="date"  min="2016-10-02" required = "required">
-<!--                                <input class="date" name="pickup-date" id="datepicker" type="date" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required = "required">-->
-                                <input type="time" name="pickup-time" id="pickup-time" placeholder="Время" value="hh:mm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}">
+                                <textarea name="city" placeholder="Город отправления"></textarea><br /> 
+                                Дата Экскурсии: <input name="pickup-date" type="date"  min="2016-10-02" required = "required">
+<!--                                <input class="date" name="pickup-date" id="datepicker" type="date" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required = "required">
+                                <input type="time" name="pickup-time" id="pickup-time" placeholder="Время" value="hh:mm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}">-->
 			
 			</div>
 				
