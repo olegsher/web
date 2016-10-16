@@ -28,11 +28,11 @@ input[type="button"],input[type="submit"],.port-grid ,.text p,.text h3{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'Playfair Display SC', sans-serif;
 }	
 p{
 	margin:0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Playfair Display SC', sans-serif;
 }
 ul{
 	margin:0;
@@ -79,7 +79,7 @@ label{
 }
 .working-hours-label {
     font-size: 12px;
-	  font-family: 'Montserrat', sans-serif;
+	  font-family: 'Playfair Display SC', sans-serif;
 	      color: #999;
 }
 .working-hours-time>span {
@@ -87,26 +87,26 @@ label{
     height: 23px;
     font-weight: 400;
     color: #333;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display SC', sans-serif;
 }
 .working-hours-date {
     font-size: 12px;
     font-weight: 400;
-	  font-family: 'Montserrat', sans-serif;
+	  font-family: 'Playfair Display SC', sans-serif;
 	      color: #999;
 }
 .phone-number-number {
     font-size: 28px;
     color: #333;
     font-weight:700;
-	  font-family: 'Montserrat', sans-serif;
+	  font-family: 'Playfair Display SC', sans-serif;
 }
 .phone-number-label {
     font-size: 12px;
        color: #999;
     height: 20px;
     font-weight: 400;
-	  font-family: 'Montserrat', sans-serif;
+	  font-family: 'Playfair Display SC', sans-serif;
 }
 .phone-text {
     float: right;
@@ -133,7 +133,7 @@ label{
     padding: 10px 25px;
     text-decoration: none;
     border: 2px solid #CFDC43;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Playfair Display SC', sans-serif;
 }
 /* Bounce To Bottom */
 .hvr-bounce-to-bottom {
@@ -248,7 +248,7 @@ nav a:focus {
   padding:0;
   background:none;
   margin: 0 auto;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display SC', sans-serif;
 }
 .top-menu ul li a:hover,.top-menu ul li a.active{
 	color:#CFDC43;
@@ -852,7 +852,7 @@ li.resp-tab-item:hover {
     display: none;
 }
 h2.resp-tab-active span.resp-arrow {
-	    font-family: 'Raleway', sans-serif;
+	    font-family: 'Playfair Display SC', sans-serif;
     border: none;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
