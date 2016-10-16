@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
 <!--		<i class="fa fa-columns"></i>-->
-                <i> <img src="images/guide_ru.png" alt="Индивидуальные туры по Израилю с частным гидом" class="img-responsive" /></i>
+<!--                <i> <img src="images/guide_ru.png" alt="Индивидуальные туры по Израилю с частным гидом" class="img-responsive" /></i>-->
 		<h3>ИНДИВИДУАЛЬНЫЕ ЭКСКУРСИИ ПО ИЗРАИЛЮ</h3>
                 <h4>
                 Лицензированные профессиональные гиды 
@@ -49,9 +49,9 @@
                       <hr />  
                     
                         <div class="bnr-left">
-				<label class="inputLabel">Город отправления и дата</label>
+				<label class="inputLabel"></label>
 <!--				<input class="city" type="text" value="Отделение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
-                                <textarea name="city" placeholder="Город отправления"></textarea><br /> 
+                                Город отправления: <textarea name="city" placeholder="Город отправления"></textarea><br /> 
                                 Дата Экскурсии: <input name="pickup-date" type="date"  min="2016-10-02" required = "required">
 <!--                                <input class="date" name="pickup-date" id="datepicker" type="date" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required = "required">
                                 <input type="time" name="pickup-time" id="pickup-time" placeholder="Время" value="hh:mm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}">-->
