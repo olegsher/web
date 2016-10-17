@@ -8,8 +8,7 @@
     </head>
     <body>
         <?php include("common.php"); ?>
-        <?php include("__top.html"); ?>
-        <?php include("_index.html"); ?>
+        
         <?php include("__footer.html"); ?>
     </body>
 </html>
