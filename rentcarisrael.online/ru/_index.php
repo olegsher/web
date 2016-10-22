@@ -17,6 +17,7 @@
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
 		<h1>Заполните форму и получите ваучер на почту</h1>
+                <h3>Нет скрытых платежей, обязательные страховки включены. Нет предоплаты, нет платы за изменение или отмену заказа </h3>
                 <form id="contactform" action="" method="post">
 		<div class="ban-top">
 			<div class="bnr-left">
