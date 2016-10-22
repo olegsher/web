@@ -12,7 +12,7 @@
 <body>
 <?php include("__counters.html"); ?>
 <?php include("__top.html"); ?>
-<?php include("_cars.html"); ?>
+<?php include("_car.html"); ?>
 <?php include("__footer.html"); ?>
 </body>
 </html>
