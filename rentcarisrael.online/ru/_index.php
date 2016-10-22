@@ -4,13 +4,13 @@
 <i> <img src="images/Thrifty-Israel.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
 		<h3>АРЕНДА АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ</h3>
                 <h4>
-                <p style="color:grey; font-weight: bold;" >Отделения во всех крупных городах Израиля </p>
-                <p style="color:grey; font-weight: bold;" > Неограниченный километраж при заказе 3-30 дней </p>
-                <p style="color:grey; font-weight: bold;" > Нет скрытых платежей, обязательные страховки включены </p>
-                <p style="color:grey; font-weight: bold;" > Огромные скидки при заказе 30+ дней </p>
-                <p style="color:grey; font-weight: bold;" > Нет предоплаты, нет платы за изменение или отмену заказа </p>
-                <p style="color:grey; font-weight: bold;" > <a  href="http://www.rentcarisrael.online/minivan.php">Прокат минивэнов - наш бизнес</a> </p>
-                <p style="color:grey; font-weight: bold;" > <a  href="http://www.rentcarisrael.online/tours.php">Акция для клиентов</a> </p>
+                <p style="color:grey; font-weight: bold; font-size: x-large" >Отделения во всех крупных городах Израиля </p>
+                <p style="color:grey; font-weight: bold; font-size: x-large" > Неограниченный километраж при заказе 3-30 дней </p>
+                <p style="color:grey; font-weight: bold; font-size: x-large" > Нет скрытых платежей, обязательные страховки включены </p>
+                <p style="color:grey; font-weight: bold; font-size: x-large" > Огромные скидки при заказе 30+ дней </p>
+                <p style="color:grey; font-weight: bold; font-size: x-large" > Нет предоплаты, нет платы за изменение или отмену заказа </p>
+                <p style="color:grey; font-weight: bold; font-size: x-large" > <a  href="http://www.rentcarisrael.online/minivan.php">Прокат минивэнов - наш бизнес</a> </p>
+                <p style="color:grey; font-weight: bold; font-size: x-large" > <a  href="http://www.rentcarisrael.online/tours.php">Акция для клиентов - Частный гид за 250$</a> </p>
                 
                 
                 </h4>
@@ -21,8 +21,6 @@
 		<div class="ban-top">
 			<div class="bnr-left">
 				<label class="inputLabel">Выбирайте класс автомобиля</label>
-                                Нет скрытых платежей, обязательные страховки включены
-<!--				<input class="city" type="text" value="Enter a city" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
                                 <!-- Car select start -->
                         
 						 <select type="text" value="Выбирайте машину" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Выбирайте машину';}" name="car-select" id="car-select" required = "required" autofocus>							
