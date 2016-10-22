@@ -21,6 +21,7 @@
 		<div class="ban-top">
 			<div class="bnr-left">
 				<label class="inputLabel">Выбирайте класс автомобиля</label>
+                                Нет скрытых платежей, обязательные страховки включены
 <!--				<input class="city" type="text" value="Enter a city" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
                                 <!-- Car select start -->
                         
