@@ -9,6 +9,10 @@
                 <p style="color:grey; font-weight: bold;" > Нет скрытых платежей, обязательные страховки включены </p>
                 <p style="color:grey; font-weight: bold;" > Огромные скидки при заказе 30+ дней </p>
                 <p style="color:grey; font-weight: bold;" > Нет предоплаты, нет платы за изменение или отмену заказа </p>
+                <p style="color:grey; font-weight: bold;" > <a  href="http://www.rentcarisrael.online/minivan.php">Прокат минивэнов - наш бизнес</a> </p>
+                <p style="color:grey; font-weight: bold;" > <a  href="http://www.rentcarisrael.online/tours.php">Акция для клиентов</a> </p>
+                
+                
                 </h4>
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
