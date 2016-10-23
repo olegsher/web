@@ -1,23 +1,28 @@
 <div class="container">
 	<div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
 <!--		<i class="fa fa-columns"></i>-->
-<i> <img src="../../images/Thrifty-Israel.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
-		<h3>АРЕНДА АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ -dsfdkfhkjh </h3>
+<i> <img src="images/Thrifty-Israel.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
+		<h3>БРОНИРОВАНИЕ АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ</h3>
                 <h4>
-                Отделения во всех крупных городах Израиля 
-                <hr /> Неограниченный километраж при заказе 3-30 дней 
-                <hr /> Нет скрытых платежей, обязательные страховки включены 
-                <hr /> Огромные скидки при заказе 30+ дней
-                <hr /> Нет предоплаты, нет платы за изменение или отмену заказа
+                <hr style="color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/minivan.php">Прокат минивэнов - наш бизнес</a> 
+                <hr style="color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/tours.php">Акция для клиентов - Частный гид за 250$</a> 
+                
+                <hr style="color:grey; font-weight: bold; font-size: large" >Отделения во всех крупных городах Израиля 
+                <hr style="color:grey; font-weight: bold; font-size: large" >Неограниченный километраж при заказе 3-30 дней
+                <hr style="color:grey; font-weight: bold; font-size: large" >Огромные скидки при заказе 30+ дней               
+                
+                
                 </h4>
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
 		<h1>Заполните форму и получите ваучер на почту</h1>
+                <p style="color:red;" >Нет скрытых платежей, обязательные страховки включены. 
+                    <br />Нет предоплаты, нет платы за изменение или отмену заказа </p>
+                <br />
                 <form id="contactform" action="" method="post">
 		<div class="ban-top">
 			<div class="bnr-left">
 				<label class="inputLabel">Выбирайте класс автомобиля</label>
-<!--				<input class="city" type="text" value="Enter a city" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
                                 <!-- Car select start -->
                         
 						 <select type="text" value="Выбирайте машину" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Выбирайте машину';}" name="car-select" id="car-select" required = "required" autofocus>							
@@ -214,7 +219,7 @@
 				<img src="images/guide.png" alt="Позвоните Vastama по аренде атомобиля в Израиле" class="img-responsive" />
 			</div>
 			<div class="rup-rgt">
-				<h3>Экскурсия на машине клиента всего 250$</h3>
+				<h3><a href="tours.php">Экскурсия на машине клиента всего 250$</a></h3>
 				<h4><a href="tours.php">от лицензированного гида</a></h4>
 				<p>при заказе аренды машины на нашем сайте</p>
 			</div>

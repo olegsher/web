@@ -24,23 +24,23 @@ else
 $lang = 'en';
 }
 
-switch ($lang) {
-  case 'en':
-  $lang_file = 'lang.en.php';
-  break;
+//switch ($lang) {
+//  case 'en':
+//  $lang_file = 'index.php';
+//  break;
 
-  case 'ru':
-  $lang_file = 'lang.ru.php';
-  break;
+//  case 'ru':
+//  $lang_file = 'index.php';
+//  break;
 
-  case 'he':
-  $lang_file = 'lang.he.php';
-  break;
+//  case 'he':
+//  $lang_file = 'index.php';
+//  break;
 
-  default:
-  $lang_file = 'lang.ru.php';
+//  default:
+  $lang_file = 'index.php';
 
-}
+//}
 
 include_once $lang.'/'.$lang_file;
 ?>
