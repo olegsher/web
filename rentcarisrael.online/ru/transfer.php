@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "admin@sher.biz"; // this is your Email address
-    $reqemail = "admin@sher.biz";
+    $to = "office@vastama.com"; // this is your Email address
+    $reqemail = "office@vastama.com";
     
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['First_name'];
@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
     $headers = "From: " . strip_tags($reqemail) . "\r\n";
     $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
 //    $headers = "Return-path: " . strip_tags($reqemail) . "\r\n";
-    $headers .= "CC: admin@vastama.com\r\n";
+    $headers .= "CC: admin@sher.biz\r\n";
     
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=utf-8\r\n";
@@ -27,8 +27,8 @@ if(isset($_POST['submit'])){
     
     $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['dropoff-location'] . " " . "rentcarisrael.online";    
             $message = '<html><body>';
-            $message = '';
-$message .= '<img src="http://www.rentcarisrael.online/images/Thrifty-Israel.jpg" alt="Website Change Request" />';
+            $message = 'заказ частного трансфера из аэропорта Бен Гурион на http://www.rentcarisrael.online +972-58-7710101 <br />';
+$message .= '<img src="http://www.rentcarisrael.online/images/Thrifty-Israel.jpg" alt="заказ частного трансфера из аэропорта Бен Гурион на rentcarisrael.online +972-58-7710101" />';
 $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 $message .= "<tr style='background: #eee;'><td><strong>First Name:</strong> </td><td>" . strip_tags($_POST['First_name']) . "</td></tr>";
 $message .= "<tr style='background: #eee;'><td><strong>Last Name:</strong> </td><td>" . strip_tags($_POST['Last_name']) . "</td></tr>";
@@ -47,10 +47,10 @@ $message .= "</body></html>";
 
      mail($to,$subject,$message,$headers);
     
-    $subject2 = "Ваш заказ автомобиля на rentcarisrael.online";
+    $subject2 = "Ваш заказ частного трансфера из аэропорта Бен Гурион на http://www.rentcarisrael.online +972-58-7710101";
     $headers2 = "From: " . strip_tags($reqemail) . "\r\n";
     $headers2 .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
-    $headers .= "CC: office@vastama.com\r\n";
+//    $headers .= "CC: office@vastama.com\r\n";
 //    $headers2 = "Return-path: " . strip_tags($reqemail) . "\r\n";
     $headers2 .= "MIME-Version: 1.0\r\n";
     $headers2 .= "Content-Type: text/html; charset=utf-8\r\n";
