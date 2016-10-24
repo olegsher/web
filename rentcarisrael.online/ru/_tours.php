@@ -69,7 +69,7 @@
 				
                        <section> 
                            <hr />
-                        Ваше имя <input type="text" name="First_name" placeholder="" required = "required">
+                        Имя <input type="text" name="First_name" placeholder="" required = "required">
                         Фамилия <input type="text" name="Last_name" placeholder="" required = "required"> <br />
                         Почта <input type="email" name="email" placeholder="" required = "required"> 
                         Телефон <input type="text" name="phone" placeholder="включая код страны" required = "required"> <br />

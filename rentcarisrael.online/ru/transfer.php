@@ -7,9 +7,9 @@ if(isset($_POST['submit'])){
     $first_name = $_POST['First_name'];
     $last_name = $_POST['Last_name'];
     $phone = $_POST['phone'];
-    $tour_select = $_POST['tour-select'];
     
-    $pickup_location = $_POST['pickup-location'];
+    
+    $dropoff_location = $_POST['dropoff-location'];
     $pickup_date = $_POST['pickup-date'];
     $pickup_time = $_POST['pickup-time'];     
     
