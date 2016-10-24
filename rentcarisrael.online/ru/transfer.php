@@ -27,7 +27,9 @@ if(isset($_POST['submit'])){
     
     $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['dropoff-location'] . " " . "rentcarisrael.online";    
             $message = '<html><body>';
-            $message = 'заказ частного трансфера из аэропорта Бен Гурион на http://www.rentcarisrael.online +972-58-7710101 <br />';
+            $message .= '<hr />';
+            $message .= 'Заказ частного трансфера из аэропорта Бен Гурион на http://www.rentcarisrael.online +972-58-7710101';
+            $message .= '<hr />';
 $message .= '<img src="http://www.rentcarisrael.online/images/Thrifty-Israel.jpg" alt="заказ частного трансфера из аэропорта Бен Гурион на rentcarisrael.online +972-58-7710101" />';
 $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 $message .= "<tr style='background: #eee;'><td><strong>First Name:</strong> </td><td>" . strip_tags($_POST['First_name']) . "</td></tr>";
