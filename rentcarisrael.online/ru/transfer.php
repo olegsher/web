@@ -61,9 +61,9 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Индивидуальные экскурсии по Израилю | RentCarIsrael.online</title>
-<meta name="keywords" content="Индивидуальные экскурсии по Израилю" />
-<meta  name="description"  content="Индивидуальные экскурсии по Израилю звоните +972-58-7710101" />
+<title>Трансферы по Израилю | RentCarIsrael.online</title>
+<meta name="keywords" content="Трансферы по Израилю" />
+<meta  name="description"  content="Трансферы по Израилю по Израилю звоните +972-58-7710101" />
 <?php include("__header.html"); ?>
 </head>
 <body>
