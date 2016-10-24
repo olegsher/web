@@ -1,6 +1,6 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "admin@sher.biz"; // this is your Email address
+    $to = "office@vastama.com"; // this is your Email address
     $reqemail = "admin@sher.biz";
     
     $from = $_POST['email']; // this is the sender's Email address
@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
     $headers = "From: " . strip_tags($reqemail) . "\r\n";
     $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
 //    $headers = "Return-path: " . strip_tags($reqemail) . "\r\n";
-    $headers .= "CC: admin@vastama.com\r\n";
+//    $headers .= "CC: admin@vastama.com\r\n";
     
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=utf-8\r\n";
@@ -41,19 +41,22 @@ if(isset($_POST['submit'])){
     
     $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['car-select'] . " " . "rentcarisrael.online";    
             $message = '<html><body>';
-$message .= '<img src="http://www.rentcarisrael.online/images/Thrifty-Israel.jpg" alt="Website Change Request" />';
+            $message .= '<hr />';
+            $message .= 'Бронирование автомобиля в Израиле на http://www.rentcarisrael.online +972-58-7710101';
+            $message .= '<hr />';
+$message .= '<img src="http://www.rentcarisrael.online/images/Thrifty-Israel.jpg" alt="Бронирование автомобиля в Израиле +972-58-7710101" />';
 $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 $message .= "<tr style='background: #eee;'><td><strong>First Name:</strong> </td><td>" . strip_tags($_POST['First_name']) . "</td></tr>";
 $message .= "<tr style='background: #eee;'><td><strong>Last Name:</strong> </td><td>" . strip_tags($_POST['Last_name']) . "</td></tr>";
 $message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
 $message .= "<tr><td><strong>Phone:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>Car:</strong> </td><td>" . strip_tags($_POST['car-select']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>pickup location:</strong> </td><td>" . strip_tags($_POST['pickup-location']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>pickup date:</strong> </td><td>" . strip_tags($_POST['pickup-date']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>pickup time:</strong> </td><td>" . strip_tags($_POST['pickup-time']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>dropoff location:</strong> </td><td>" . strip_tags($_POST['dropoff-location']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>dropoff date:</strong> </td><td>" . strip_tags($_POST['dropoff-date']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>dropoff time:</strong> </td><td>" . strip_tags($_POST['dropoff-time']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Car Category:</strong> </td><td>" . strip_tags($_POST['car-select']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Pickup location:</strong> </td><td>" . strip_tags($_POST['pickup-location']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Pickup date:</strong> </td><td>" . strip_tags($_POST['pickup-date']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Pickup time:</strong> </td><td>" . strip_tags($_POST['pickup-time']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Dropoff location:</strong> </td><td>" . strip_tags($_POST['dropoff-location']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Dropoff date:</strong> </td><td>" . strip_tags($_POST['dropoff-date']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Dropoff time:</strong> </td><td>" . strip_tags($_POST['dropoff-time']) . "</td></tr>";
 $message .= "<tr><td><strong>Age:</strong> </td><td>" . strip_tags($_POST['age']) . "</td></tr>";
 $message .= "<tr><td><strong>Driver Experience:</strong> </td><td>" . strip_tags($_POST['DriverExperience']) . "</td></tr>";
 $message .= "<tr><td><strong>SuperCDW:</strong> </td><td>" . strip_tags($_POST['SuperCDW']) . "</td></tr>";
@@ -61,7 +64,7 @@ $message .= "<tr><td><strong>SuperTP:</strong> </td><td>" . strip_tags($_POST['S
 $message .= "<tr><td><strong>Children seat:</strong> </td><td>" . strip_tags($_POST['childseat']) . "</td></tr>";
 $message .= "<tr><td><strong>GPS:</strong> </td><td>" . strip_tags($_POST['GPS']) . "</td></tr>";
 $message .= "<tr><td><strong>Roadsafe:</strong> </td><td>" . strip_tags($_POST['RoadSafe']) . "</td></tr>";
-$message .= "<tr><td><strong>Add driver:</strong> </td><td>" . strip_tags($_POST['addDriver']) . "</td></tr>";
+$message .= "<tr><td><strong>Additional driver:</strong> </td><td>" . strip_tags($_POST['addDriver']) . "</td></tr>";
 $message .= "<tr><td><strong>Religious:</strong> </td><td>" . strip_tags($_POST['Religious']) . "</td></tr>";
 $message .= "<tr><td><strong>message:</strong> </td><td>" . strip_tags($_POST['message']) . "</td></tr>";
 $message .= "</table>";
@@ -70,7 +73,7 @@ $message .= "</body></html>";
 
      mail($to,$subject,$message,$headers);
     
-    $subject2 = "Ваш заказ автомобиля на rentcarisrael.online";
+    $subject2 = "Ваше бронирование автомобиля в Израиле на http://www.rentcarisrael.online +972-58-7710101";
     $headers2 = "From: " . strip_tags($reqemail) . "\r\n";
     $headers2 .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
     $headers .= "CC: office@vastama.com\r\n";
