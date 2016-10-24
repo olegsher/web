@@ -46,7 +46,7 @@
 <!--				<textarea name="City" placeholder="Населенный пункт"></textarea> <br />-->
 <hr />
                                 <label class="inputLabel">Когда</label>
-                                <input class="date" name="pickup-date" id="datepicker" type="text" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required=>
+                                <input name="pickup-date" type="date"  min="2016-10-02" required = "required">
                                 <input type="time" name="pickup-time" id="pickup-time" placeholder="Время" required = "required" value="hh:mm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}">
 			
 			</div>	

@@ -27,16 +27,17 @@ if(isset($_POST['submit'])){
     
     $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['dropoff-location'] . " " . "rentcarisrael.online";    
             $message = '<html><body>';
+            $message = '';
 $message .= '<img src="http://www.rentcarisrael.online/images/Thrifty-Israel.jpg" alt="Website Change Request" />';
 $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 $message .= "<tr style='background: #eee;'><td><strong>First Name:</strong> </td><td>" . strip_tags($_POST['First_name']) . "</td></tr>";
 $message .= "<tr style='background: #eee;'><td><strong>Last Name:</strong> </td><td>" . strip_tags($_POST['Last_name']) . "</td></tr>";
 $message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
-$message .= "<tr><td><strong>Phone:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>dropoff-location:</strong> </td><td>" . strip_tags($_POST['dropoff-location']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>pickup location:</strong> </td><td>" . strip_tags($_POST['city']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>pickup date:</strong> </td><td>" . strip_tags($_POST['pickup-date']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>pickup time:</strong> </td><td>" . strip_tags($_POST['pickup-time']) . "</td></tr>";
+$message .= "<tr><td><strong>Contact Phone:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Destination:</strong> </td><td>" . strip_tags($_POST['dropoff-location']) . "</td></tr>";
+
+$message .= "<tr style='background: #eee;'><td><strong>Pickup date from Ben Gurion:</strong> </td><td>" . strip_tags($_POST['pickup-date']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>Pickup time from Ben Gurion:</strong> </td><td>" . strip_tags($_POST['pickup-time']) . "</td></tr>";
 
 
 $message .= "<tr><td><strong>message:</strong> </td><td>" . strip_tags($_POST['message']) . "</td></tr>";
