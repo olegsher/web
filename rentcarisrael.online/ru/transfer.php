@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['submit'])){
     $to = "office@vastama.com"; // this is your Email address
-    $reqemail = "office@vastama.com";
+    $reqemail = "rentcarisrael.online@sher.biz";
     
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['First_name'];
@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
    
 //    $headers = "From:" . $from;
     $headers = "From: " . strip_tags($reqemail) . "\r\n";
-    $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
+    $headers .= "Reply-To: ". strip_tags($to) . "\r\n";
 //    $headers = "Return-path: " . strip_tags($reqemail) . "\r\n";
     $headers .= "CC: admin@sher.biz\r\n";
     
