@@ -64,9 +64,9 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Трансферы по Израилю | RentCarIsrael.online</title>
+<title>Частный трансфер из аэропорта Бен Гурион. Трансферы по Израилю | RentCarIsrael.online</title>
 <meta name="keywords" content="Трансферы по Израилю" />
-<meta  name="description"  content="Трансферы по Израилю по Израилю звоните +972-58-7710101" />
+<meta  name="description"  content="Частный трансфер из аэропорта Бен Гурион. Трансферы по Израилю звоните +972-58-7710101" />
 <?php include("__header.html"); ?>
 </head>
 <body>
