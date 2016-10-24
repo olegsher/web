@@ -17,9 +17,9 @@ if(isset($_POST['submit'])){
    
 //    $headers = "From:" . $from;
     $headers = "From: " . strip_tags($reqemail) . "\r\n";
-    $headers .= "Reply-To: ". strip_tags($to) . "\r\n";
+    $headers .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
 //    $headers = "Return-path: " . strip_tags($reqemail) . "\r\n";
-    $headers .= "CC: admin@sher.biz\r\n";
+//    $headers .= "CC: admin@sher.biz\r\n";
     
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=utf-8\r\n";
