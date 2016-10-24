@@ -4,16 +4,7 @@ if(isset($_POST['submit'])){
     $reqemail = "admin@sher.biz";
     
     $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['First_name'];
-    $last_name = $_POST['Last_name'];
-    $phone = $_POST['phone'];
-    $tour_select = $_POST['tour-select'];
     
-    $pickup_location = $_POST['pickup-location'];
-    $pickup_date = $_POST['pickup-date'];
-    $pickup_time = $_POST['pickup-time'];     
-    
-    $message = $_POST['message'];
    
 //    $headers = "From:" . $from;
     $headers = "From: " . strip_tags($reqemail) . "\r\n";
@@ -25,7 +16,7 @@ if(isset($_POST['submit'])){
     $headers .= "Content-Type: text/html; charset=utf-8\r\n";
     
     
-    $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['car-select'] . " " . "rentcarisrael.online";    
+    $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['dropoff-location'] . " " . "www.rentcarisrael.online";    
             $message = '<html><body>';
 $message .= '<img src="http://www.rentcarisrael.online/images/Thrifty-Israel.jpg" alt="Website Change Request" />';
 $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
@@ -33,8 +24,8 @@ $message .= "<tr style='background: #eee;'><td><strong>First Name:</strong> </td
 $message .= "<tr style='background: #eee;'><td><strong>Last Name:</strong> </td><td>" . strip_tags($_POST['Last_name']) . "</td></tr>";
 $message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
 $message .= "<tr><td><strong>Phone:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>Car:</strong> </td><td>" . strip_tags($_POST['tour-select']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>pickup location:</strong> </td><td>" . strip_tags($_POST['city']) . "</td></tr>";
+$message .= "<tr style='background: #eee;'><td><strong>dropoff-location:</strong> </td><td>" . strip_tags($_POST['dropoff-location']) . "</td></tr>";
+
 $message .= "<tr style='background: #eee;'><td><strong>pickup date:</strong> </td><td>" . strip_tags($_POST['pickup-date']) . "</td></tr>";
 $message .= "<tr style='background: #eee;'><td><strong>pickup time:</strong> </td><td>" . strip_tags($_POST['pickup-time']) . "</td></tr>";
 
@@ -46,7 +37,7 @@ $message .= "</body></html>";
 
      mail($to,$subject,$message,$headers);
     
-    $subject2 = "Ваш заказ автомобиля на rentcarisrael.online";
+    $subject2 = "Ваш заказ трансфера из аэропорта Бен Гурион на rentcarisrael.online";
     $headers2 = "From: " . strip_tags($reqemail) . "\r\n";
     $headers2 .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
     $headers .= "CC: office@vastama.com\r\n";
