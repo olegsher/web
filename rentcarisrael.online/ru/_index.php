@@ -88,7 +88,7 @@
                                 </select>
                                 <input name="pickup-date" type="date"  min="2016-10-02" required = "required">
 <!--                                <input class="date" name="pickup-date" id="datepicker" type="date" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required = "required">-->
-                                <input type="time" name="pickup-time" id="pickup-time" placeholder="Время" required = "required" value="hh:mm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}">
+                                <input type="time" name="pickup-time" id="pickup-time"  required = "required" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}">
 			
 			</div>
 				
@@ -123,7 +123,7 @@
                                 </select>
                                 <input name="dropoff-date" type="date"  min="2016-10-02" required = "required">
 <!--                                <input class="date" name="dropoff-date" id="datepicker1" type="text" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required = "required">-->
-                                <input type="time" name="dropoff-time" id="dropoff-time" placeholder="Время" value="hh:mm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}" required = "required">
+                                <input type="time" name="dropoff-time" id="dropoff-time" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}" required = "required">
                         
 			</div>
 <!--				<div class="clearfix"></div>-->
