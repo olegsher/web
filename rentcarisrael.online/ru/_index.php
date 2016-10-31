@@ -61,7 +61,7 @@
                         <div class="bnr-left">
 				<label class="inputLabel">Аренда</label>
 <!--				<input class="city" type="text" value="Отделение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
-                                <select class="city" type="text" value="Отделение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Отделение';}"  name="pickup-location" id="pickup-location" required = "required">
+                                <select class="city" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Отделение';}"  name="pickup-location" id="pickup-location" required = "required">
                                         <option value="">Отделение</option>
                                         <option value="Аэропорт Бен Гурион">Аэропорт Бен Гурион</option>
                                         <option value="Тель Авив, ул. ха-Яркон, 80">Тель Авив, ул. ха-Яркон, 80</option>
@@ -87,7 +87,6 @@
                                         <option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
                                 </select>
                                 <input name="pickup-date" type="date"  min="2016-10-02" required = "required">
-<!--                                <input class="date" name="pickup-date" id="datepicker" type="date" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required = "required">-->
                                 <input type="time" name="pickup-time" id="pickup-time"  required = "required" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}">
 			
 			</div>
@@ -122,7 +121,6 @@
                                         <option value="Ришон ле-Цион, ул. Сахаров, 14">Ришон ле-Цион, ул. Сахаров, 14</option>
                                 </select>
                                 <input name="dropoff-date" type="date"  min="2016-10-02" required = "required">
-<!--                                <input class="date" name="dropoff-date" id="datepicker1" type="text" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required = "required">-->
                                 <input type="time" name="dropoff-time" id="dropoff-time" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hh:mm';}" required = "required">
                         
 			</div>
@@ -142,10 +140,7 @@
                         Стаж вождения <input type="number" name="DriverExperience" min="1" max="70" placeholder="" required = "required"> 
                         
 		</div>
-<!--		<div class="sear">-->
 
-			
-<!--                        <section> -->
                             <hr />
                         <input type="checkbox" name="SuperCDW" value="V"> Добавить отмену личного участия при повреждении машины<br>
                         <input type="checkbox" name="SuperTP" value="V"> Добавить отмену личного участия при угоне машины<br>
@@ -158,7 +153,7 @@
 <!--                        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
                         <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>-->
                         <textarea name="message" placeholder="Дополнительная информация, вопрос..."></textarea> <br />
-<!--                        </section>
+<!--                        
                         <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>-->
                         <br />
                         <input type="submit" name="submit" value="ЗАКАЗАТЬ">
@@ -169,7 +164,7 @@
                 
  
 
-<!--		</div>-->
+
 	</div>
     <hr />
     * Указанные цены соответствуют прейскуранту дилера компании ТРИФТИ для низкого сезона и значительно отличаются от расценок на сайте\отделении поставщика <br />
