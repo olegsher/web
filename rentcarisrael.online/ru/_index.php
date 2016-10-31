@@ -26,7 +26,7 @@
 				<label class="inputLabel">Выбирайте класс автомобиля</label>
                                 <!-- Car select start -->
                         
-						 <select type="text" value="Выбирайте машину" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Выбирайте машину';}" name="car-select" id="car-select" required = "required" autofocus>							
+						 <select onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Выбирайте машину';}" name="car-select" id="car-select" required = "required" autofocus>							
 							<option value="Category Q" >Smart Fortwo(два места) или похожая в категории Q - от 24$ в сутки(франшиза - 475$)</option>
 							<option value="Category B" >Suzuki Alto(ручник) или похожая в категории B - от 24$ в сутки(франшиза - 475$)</option>
 							<option value="Category C" >Toyota Aygo(робот) или похожая в категории C - от 25$ в сутки(франшиза - 475$)</option>
