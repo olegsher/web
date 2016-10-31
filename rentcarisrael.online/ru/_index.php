@@ -131,16 +131,8 @@
 		<div class="ban-bottom">
                     
 				<div class="clearfix"></div>
-				<!---start-date-piker---->
-<!--				<link rel="stylesheet" href="css/jquery-ui.css" />
-				<script async src="js/jquery-ui.js"></script>
-					<script>
-						$(function() {
-						$( "#datepicker,#datepicker1" ).datepicker();
-						});
-					</script>-->
-			<!---/End-date-piker---->
-                       <section> 
+
+                       
                            <hr />
                         Имя <input type="text" name="First_name" placeholder="на английском" required = "required">
                         Фамилия <input type="text" name="Last_name" placeholder="на английском" required = "required"> <br />
@@ -148,13 +140,12 @@
                         Телефон <input type="text" name="phone" placeholder="включая код страны" required = "required"> <br />
                         Возраст водителя <input type="number" name="age" min="21" max="70" placeholder="от 21" required = "required"> 
                         Стаж вождения <input type="number" name="DriverExperience" min="1" max="70" placeholder="" required = "required"> 
-                        </section>
+                        
 		</div>
 <!--		<div class="sear">-->
-<!--			<form action="//formspree.io/rentcar@vastama.com" method="POST">
-				<button class="seabtn">Search Buses</button>-->
+
 			
-                        <section>
+<!--                        <section> -->
                             <hr />
                         <input type="checkbox" name="SuperCDW" value="V"> Добавить отмену личного участия при повреждении машины<br>
                         <input type="checkbox" name="SuperTP" value="V"> Добавить отмену личного участия при угоне машины<br>
@@ -167,8 +158,8 @@
 <!--                        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
                         <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>-->
                         <textarea name="message" placeholder="Дополнительная информация, вопрос..."></textarea> <br />
-                        </section>
-<!--                        <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>-->
+<!--                        </section>
+                        <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>-->
                         <br />
                         <input type="submit" name="submit" value="ЗАКАЗАТЬ">
                         
