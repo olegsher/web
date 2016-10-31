@@ -20,7 +20,7 @@
                 <p style="color:red;" >Нет скрытых платежей, обязательные страховки включены. 
                     <br />Нет предоплаты, нет платы за изменение или отмену заказа </p>
                 <br />
-                <form id="contactform" action="" method="post">
+                <form id="contactform" method="post">
 		<div class="ban-top">
 			<div class="bnr-left">
 				<label class="inputLabel">Выбирайте класс автомобиля</label>
