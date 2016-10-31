@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
     
     
     $subject = $_POST['First_name'] . " " . $_POST['Last_name'] . " " . $_POST['car-select'] . " " . "rentcarisrael.online";    
-            $message = '<html><body>';
+            $message = '<html lang="ru"><body>';
             $message .= '<hr />';
             $message .= 'Бронирование автомобиля в Израиле на http://www.rentcarisrael.online +972-58-7710101';
             $message .= '<hr />';
