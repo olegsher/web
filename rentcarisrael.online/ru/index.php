@@ -1,10 +1,3 @@
-<?php // Permanent 301 Redirect via PHP
-	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: http://www.rentcarisrael.online/");
-	exit();
-?>
-
-
 <?php 
 if(isset($_POST['submit'])){
     $to = "office@vastama.com"; // this is your Email address
