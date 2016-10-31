@@ -3,17 +3,17 @@
 <!--		<i class="fa fa-columns"></i>-->
 <i> <img src="images/Thrifty-Israel.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
 		<h3>БРОНИРОВАНИЕ АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ</h3>
-                <h4>
-                <p style="color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/minivan.php">Прокат минивэнов - наш бизнес</a> </p>
-                <p style="color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/tours.php">Акция для клиентов - Частный гид за 250$</a></p>
-                <p style="color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/transfer.php">Частный трансфер из аэропорта Бен Гурион начиная от 60$</a></p>
                 
-                <p style="color:grey; font-weight: bold; font-size: large" >Отделения во всех крупных городах Израиля </p>
-                <p style="color:grey; font-weight: bold; font-size: large" >Неограниченный километраж при заказе 3-30 дней</p>
-                <p style="color:grey; font-weight: bold; font-size: large" >Огромные скидки при заказе 30+ дней           </p>    
+                <hr style="color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/minivan.php">Прокат минивэнов - наш бизнес</a> 
+                <hr style="color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/tours.php">Акция для клиентов - Частный гид за 250$</a>
+                <hr style="color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/transfer.php">Частный трансфер из аэропорта Бен Гурион начиная от 60$</a>
+                
+                <hr style="color:grey; font-weight: bold; font-size: large" >Отделения во всех крупных городах Израиля 
+                <hr style="color:grey; font-weight: bold; font-size: large" >Неограниченный километраж при заказе 3-30 дней
+                <hr style="color:grey; font-weight: bold; font-size: large" >Огромные скидки при заказе 30+ дней               
                 
                 
-                </h4>
+                
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
 		<h1>Заполните форму и получите ваучер на почту</h1>
