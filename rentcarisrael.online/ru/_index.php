@@ -6,7 +6,7 @@
                 
                     
                 <hr />
-                <a style="float:left; color:grey; font-weight: bold; font-size: large"  href="http://www.rentcarisrael.online/minivan.php" Прокат минивэнов - наш бизнес</a>
+                <a style="float:left; color:grey; font-weight: bold; font-size: large"  href="http://www.rentcarisrael.online/minivan.php" Прокат минивэнов - наш бизнес </a>
                 <hr />
                 <p style="float:left; color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/tours.php">Акция для клиентов - Частный гид за 250$</a> </p>
                 <hr />
