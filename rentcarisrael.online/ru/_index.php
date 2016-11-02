@@ -5,16 +5,16 @@
 		<h3>БРОНИРОВАНИЕ АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ</h3>
                 
                     
-                <hr /><p style="float:left; color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/minivan.php">Прокат минивэнов - наш бизнес</a> </p>
-                <hr /><p style="float:left; color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/tours.php">Акция для клиентов - Частный гид за 250$</a> </p>
-                <hr /><p style="float:left; color:grey; font-weight: bold; font-size: large" ><a  href="http://www.rentcarisrael.online/transfer.php">Частный трансфер из аэропорта Бен Гурион начиная от 60$</a> </p>
-                
-                <hr /><p style="float:left; color:grey; font-weight: bold; font-size: large" >Отделения во всех крупных городах Израиля </p>
-                <hr />
-                <p style="float:left; color:grey; font-weight: bold; font-size: large" >Неограниченный километраж при заказе 3-30 дней </p>
-                <hr />
-                <p style="float:left; color:grey; font-weight: bold; font-size: large" >Огромные скидки при заказе 30+ дней         </p>      
-              
+    <hr /><a  href="http://www.rentcarisrael.online/minivan.php">Прокат минивэнов - наш бизнес</a>
+    <hr /><a  href="http://www.rentcarisrael.online/tours.php">Акция для клиентов - Частный гид за 250$</a>
+    <hr /><a  href="http://www.rentcarisrael.online/transfer.php">Частный трансфер из аэропорта Бен Гурион начиная от 60$</a>
+
+    <hr /><p style="float:left; color:grey; font-weight: bold; font-size: large" >Отделения во всех крупных городах Израиля </p>
+    <hr />
+    <p style="float:left; color:grey; font-weight: bold; font-size: large" >Неограниченный километраж при заказе 3-30 дней </p>
+    <hr />
+    <p style="float:left; color:grey; font-weight: bold; font-size: large" >Огромные скидки при заказе 30+ дней         </p>      
+
                 
                 
 	</div>
@@ -251,6 +251,7 @@
  <br /><img src="images/viber.png" alt="Позвоните Vastama по аренде атомобиля в Израиле" /> Viber +972-58-7710101
  <br /><img src="images/mail.gif" alt="Позвоните Vastama по аренде атомобиля в Израиле" /> Почта rentcar@vastama.com
  <br />говорим по русски
+ <hr />
  <div class="fb-like" data-href="https://www.facebook.com/vastama.israel/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 
 </div>
