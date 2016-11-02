@@ -251,4 +251,6 @@
  <br /><img src="images/viber.png" alt="Позвоните Vastama по аренде атомобиля в Израиле" /> Viber +972-58-7710101
  <br /><img src="images/mail.gif" alt="Позвоните Vastama по аренде атомобиля в Израиле" /> Почта rentcar@vastama.com
  <br />говорим по русски
+ <div class="fb-like" data-href="https://www.facebook.com/vastama.israel/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
 </div>
