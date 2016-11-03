@@ -14,6 +14,7 @@
 <i> <img src="images/Thrifty-Israel.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
 		<h3>БРОНИРОВАНИЕ АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ</h3>
 </div>
+</div>
 
 
 <?php include("__footer.html"); ?>
