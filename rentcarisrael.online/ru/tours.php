@@ -49,7 +49,7 @@ $message .= "</body></html>";
 
      mail($to,$subject,$message,$headers);
     
-    $subject2 = "Ваш заказ частного гида на http://www.rentcarisrael.online +972-58-7710101";
+    $subject2 = "Заказ частного гида на http://www.rentcarisrael.online +972-58-7710101";
     $headers2 = "From: " . strip_tags($reqemail) . "\r\n";
     $headers2 .= "Reply-To: ". strip_tags($reqemail) . "\r\n";
 //    $headers .= "CC: office@vastama.com\r\n";
@@ -67,11 +67,16 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
 <title>Индивидуальные экскурсии по Израилю | RentCarIsrael.online</title>
 <meta name="keywords" content="Индивидуальные экскурсии по Израилю" />
 <meta  name="description"  content="Индивидуальные экскурсии по Израилю звоните +972-58-7710101" />
-<meta property="og:title" content="аренда прокат автомобиля в Израиле, эконом класс и семейные машины, микроавтобусы и минивэны 7-8-9 мест  - аренда прокат автомобиля в Израиле от компании Vastama Ltd тел +972-58-7710101" />
-<meta property="og:image" content="http://www.rentcarisrael.online/images/catZ.jpg"/>
-<meta property="og:site_name" content="RentCarIsrael.online Бронирование Микроавтобусы и минивэны 7-8-9 мест аренда прокат автомобиля в Израиле"/>
-<meta property="og:description" content="аренда прокат автомобиля в Израиле, эконом класс и семейные машины, микроавтобусы и минивэны 7-8-9 мест  - аренда прокат автомобиля в Израиле"/>
-
+<meta property="fb:app_id" content="1322511981092474" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:url" content="http://www.rentcarisrael.online/tours.php" />
+<meta property="og:image" content="http://www.rentcarisrael.online/images/guide_ru.png"/>
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="640" />
+<meta property="og:image:height" content="426" />
+<meta property="og:title" content="Индивидуальные экскурсии по Израилю на вашей машине" />
+<meta property="og:description" content="Заплатите только 250$ за индивидуальную экскурсию от лицензированного частного гида, нет предоплаты, заказ онлайн, Whatsapp/Viber +972-58-7710101"/>
 <?php include("__header.html"); ?>
 </head>
 <body>
