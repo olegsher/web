@@ -4,25 +4,26 @@
                 <i> <img src="images/guide_ru.png" alt="Индивидуальные туры по Израилю с частным гидом" class="img-responsive" /></i>
 		<h3>ИНДИВИДУАЛЬНЫЕ ЭКСКУРСИИ ПО ИЗРАИЛЮ</h3>
                 
-                <h4>
+                
                 Лицензированные профессиональные гиды 
                 <hr /> День работы гида 250$ 
                 <hr /> Нет скрытых платежей 
                 <hr /> Скидки при заказе нескольких экскурсий
                 <hr /> Оплата напрямую гиду, нет предоплаты, нет платы за изменение или отмену заказа
-                </h4>
+                
 	</div>
 	<div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
 		<h1>Заполните форму и частный гид свяжется с вами для назначения экскурсии</h1>
-                <form id="contactform" action="" method="post">
+                <form id="contactform" method="post">
 		<div class="ban-top">
 			<div class="bnr-left">
 				<label class="inputLabel">Выбирайте экскурсию</label>
 <!--				<input class="city" type="text" value="Enter a city" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter a city';}" required=>-->
                                 <!-- Car select start -->
                         
-						 <select type="text" value="Выбирайте экскурсию" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Выбирайте экскурсию';}" name="tour-select" id="car-select" required = "required" autofocus>							
-							<option value="Иерусалим трех религий" >Иерусалим трех религий</option>
+						 <select onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Выбирайте экскурсию';}" name="tour-select" id="car-select" required = "required" autofocus>							
+							<option value="" >Выбирайте экскурсию</option>
+                                                        <option value="Иерусалим трех религий" >Иерусалим трех религий</option>
 							<option value="Иерусалим Христианский" >Иерусалим Христианский</option>
 							<option value="Иерусалим Иудейский" >Иерусалим Иудейский</option>
 							<option value="Иерусалим Мусульманский" >Иерусалим Мусульманский</option>
@@ -67,22 +68,22 @@
                     
 				<div class="clearfix"></div>
 				
-                       <section> 
+                       
                            <hr />
                         Имя <input type="text" name="First_name" placeholder="" required = "required">
                         Фамилия <input type="text" name="Last_name" placeholder="" required = "required"> <br />
                         Почта <input type="email" name="email" placeholder="" required = "required"> 
                         Телефон <input type="text" name="phone" placeholder="включая код страны" required = "required"> <br />
                          
-                        </section>
+                        
 		</div>
 
 			
-                        <section>
+                        
                             <hr />
                         
                         <textarea name="message" placeholder="Дополнительная информация, вопрос..."></textarea> <br />
-                        </section>
+                        
 <!--                        <div class="g-recaptcha" data-sitekey="6LcVRQgUAAAAALqre7PqN_m3eNet_RK1XrRoj6Hz"></div>-->
                         <br />
                         <input type="submit" name="submit" value="ЗАКАЗАТЬ">
@@ -119,3 +120,4 @@
  <br /><img src="images/mail.gif" alt="Позвоните Vastama по аренде атомобиля в Израиле" /> Почта rentcar@vastama.com
  <br />говорим по русски
 </div>
+<hr />
