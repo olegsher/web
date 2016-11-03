@@ -62,7 +62,7 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
     }
 ?>
 <!DOCTYPE HTML>
-<html>
+<html lang="ru">
 <head>
 <title>Индивидуальные экскурсии по Израилю | RentCarIsrael.online</title>
 <meta name="keywords" content="Индивидуальные экскурсии по Израилю" />

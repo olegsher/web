@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
 <!--		<i class="fa fa-columns"></i>-->
-                <i> <img src="images/guide_ru.png" alt="Индивидуальные туры по Израилю с частным гидом" class="img-responsive" /></i>
+                <i> <img src="images/israel.jpeg" alt="Индивидуальные туры по Израилю с частным гидом" class="img-responsive" /></i>
 		<h3>ИНДИВИДУАЛЬНЫЕ ЭКСКУРСИИ ПО ИЗРАИЛЮ</h3>
                 
                 
@@ -104,7 +104,7 @@
 <hr />
 <div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">    
     <h2>ПОЧЕМУ СТОИТ ЗАКАЗАТЬ ИНДИВИДУАЛЬНУЮ ЭКСКУРСИЮ У НАС?</h2><br />
-    <img src="images/israel.jpeg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />
+    <img src="images/guide_ru.png" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" />
 </div> 
 
 Индивидуальная экскурсия по Израилю с профессиональным лицензированным частным гидом стоит начиная с 450$. 
