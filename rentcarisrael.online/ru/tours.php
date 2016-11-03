@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
     
     $pickup_location = $_POST['pickup-location'];
     $pickup_date = $_POST['pickup-date'];
-    $pickup_time = $_POST['pickup-time'];     
+//    $pickup_time = $_POST['pickup-time'];     
     
     $message = $_POST['message'];
    
@@ -39,10 +39,10 @@ $message .= "<tr><td><strong>Phone:</strong> </td><td>" . strip_tags($_POST['pho
 $message .= "<tr style='background: #eee;'><td><strong>Tour:</strong> </td><td>" . strip_tags($_POST['tour-select']) . "</td></tr>";
 $message .= "<tr style='background: #eee;'><td><strong>pickup location:</strong> </td><td>" . strip_tags($_POST['city']) . "</td></tr>";
 $message .= "<tr style='background: #eee;'><td><strong>pickup date:</strong> </td><td>" . strip_tags($_POST['pickup-date']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>pickup time:</strong> </td><td>" . strip_tags($_POST['pickup-time']) . "</td></tr>";
+//$message .= "<tr style='background: #eee;'><td><strong>pickup time:</strong> </td><td>" . strip_tags($_POST['pickup-time']) . "</td></tr>";
 
 
-$message .= "<tr><td><strong>message:</strong> </td><td>" . strip_tags($_POST['message']) . "</td></tr>";
+$message .= "<tr><td><strong>Message:</strong> </td><td>" . strip_tags($_POST['message']) . "</td></tr>";
 $message .= "</table>";
 $message .= "</body></html>";
 
