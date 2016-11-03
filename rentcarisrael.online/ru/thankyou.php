@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="ru">
 <head>
 <title>Спасибо за заказ автомобиля | RentCarIsrael.online</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">

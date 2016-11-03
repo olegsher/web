@@ -62,7 +62,7 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
     }
 ?>
 <!DOCTYPE HTML>
-<html>
+<html lang="ru">
 <head>
 <title>Частный трансфер из аэропорта Бен Гурион. Трансферы по Израилю | RentCarIsrael.online</title>
 <meta name="keywords" content="Трансферы по Израилю" />
