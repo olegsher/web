@@ -74,7 +74,7 @@ header('Location: http://www.rentcarisrael.online/thankyou.php');
 <meta property="og:image" content="http://www.rentcarisrael.online/images/guide_ru.png"/>
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="640" />
-<meta property="og:image:height" content="426" />
+<meta property="og:image:height" content="460" />
 <meta property="og:title" content="Индивидуальные экскурсии по Израилю на вашей машине" />
 <meta property="og:description" content="Заплатите только 250$ за индивидуальную экскурсию от лицензированного частного гида, нет предоплаты, заказ онлайн, Whatsapp/Viber +972-58-7710101"/>
 <?php include("__header.html"); ?>
