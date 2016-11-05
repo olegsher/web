@@ -464,7 +464,7 @@ nav a:focus {
 .callbacks_tabs a:after {
     content: "\f111";
     font-size: 0;
-    font-family: FontAwesome;
+    font-family: Roboto;
     visibility: visible;
     display: block;
     height:12px;
