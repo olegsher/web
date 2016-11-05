@@ -24,7 +24,7 @@
 <?php include("__shema.html"); ?>
 
 <?php include("__top.html"); ?>
-<?php include("index.html"); ?>
+<?php include("_index.html"); ?>
 <?php include("__footer.html"); ?>
 </body>
 </html>
