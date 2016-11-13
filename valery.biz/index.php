@@ -1,14 +1,47 @@
-<!DOCTYPE HTML>
-<html dir="rtl" lang="he">
-<head>
-<title>Valery.biz</title>
-<meta name="keywords" content="" />
-<meta  name="description"  content="" />
-<?php include("__header.html"); ?>
-</header>
-<body>
+<?php
+session_start();
+header('Cache-control: private'); // IE 6 FIX
 
-<?php include("_index.html"); ?>
-<?php include("__footer.html"); ?>
-</body>
+if(isSet($_GET['lang']))
+{
+$lang = $_GET['lang'];
 
+// register the session and set the cookie
+$_SESSION['lang'] = $lang;
+
+setcookie("lang", $lang, time() + (3600 * 24 * 30));
+}
+else if(isSet($_SESSION['lang']))
+{
+$lang = $_SESSION['lang'];
+}
+else if(isSet($_COOKIE['lang']))
+{
+$lang = $_COOKIE['lang'];
+}
+else
+{
+$lang = 'he';
+}
+
+//switch ($lang) {
+//  case 'en':
+//  $lang_file = 'index.php';
+//  break;
+
+//  case 'ru':
+//  $lang_file = 'index.php';
+//  break;
+
+//  case 'he':
+//  $lang_file = 'index.php';
+//  break;
+
+//  default:
+  $lang_file = 'index.html';
+
+//}
+
+$lang = 'he';
+include_once $lang.'/'.$lang_file;
+?>
