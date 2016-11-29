@@ -1,13 +1,13 @@
 <div class="container">
 	<div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
 <!--		<i class="fa fa-columns"></i>-->
-<i> <img src="images/Thrifty-Israel.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
+<i> <img src="../images/Thrifty-Israel.jpg" alt="машина прокат, машина прокат Израиле, аренда машины Израиль" class="img-responsive" /></i>
 		<h3>БРОНИРОВАНИЕ АВТОМОБИЛЯ В ИЗРАИЛЕ ЗА ОДИН ШАГ</h3>
                 
                     
-    <hr /><a  href="http://www.rentcarisrael.online/minivan.php">Прокат минивэнов - наш бизнес</a>
-    <hr /><a  href="http://www.rentcarisrael.online/tours.php">Акция для клиентов - Частный гид за 250$</a>
-    <hr /><a  href="http://www.rentcarisrael.online/transfer.php">Частный трансфер из аэропорта Бен Гурион начиная от 60$</a>
+    <hr /><a  href="http://www.vastamatours.com/minivan.php">Прокат минивэнов - наш бизнес</a>
+    <hr /><a  href="http://www.vastamatours.com/tours.php">Акция для клиентов - Частный гид за 250$</a>
+    <hr /><a  href="http://www.vastamatours.com/transfer.php">Частный трансфер из аэропорта Бен Гурион начиная от 60$</a>
     <hr />Отделения во всех крупных городах Израиля
     <hr />Неограниченный километраж при заказе 3-30 дней
     <hr />Огромные скидки при заказе 30+ дней      
