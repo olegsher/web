@@ -27,7 +27,7 @@
                                 <!-- Car select start -->
                         
 						 <select onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Выбирайте машину';}" name="car-select" id="car-select" required = "required" autofocus>
-                                                        <option value="" >Категории автомобилей</option>							
+                            <option value="" >Категории автомобилей</option>							
 							<option value="Category Q" >Smart Fortwo(два места) или похожая в категории Q - от 24$ в сутки(франшиза - 475$)</option>
 							<option value="Category B" >Suzuki Alto(ручник) или похожая в категории B - от 24$ в сутки(франшиза - 475$)</option>
 							<option value="Category C" >Toyota Aygo(робот) или похожая в категории C - от 25$ в сутки(франшиза - 475$)</option>
@@ -42,13 +42,13 @@
 							<option value="Category T" >Fiat Doblo(ручник, 5 мест) или похожая в категории T - от 60$ в сутки(франшиза - 475$)</option>
 							<option value="Category J" >Nissan Qashqai(автомат, 5 мест) или похожая в категории J - от 63$ в сутки(франшиза - 715$)</option>
 							<option value="Category U" >Mazda 5(автомат, 7 мест) или похожая в категории U - от 60$ в сутки(франшиза - 715$)</option>
-                                                        <option value="Category V" >Ford Galaxy V(автомат, 7 мест) или похожая в категории V - от 77$ в сутки(франшиза - 960$)</option>
-                                                        <option value="Category S" >Hyundai i800(ручник, 8 мест) или похожая в категории S - от 104$ в сутки(франшиза - 960$)</option>
-                                                        <option value="Category V8" >Toyota Sienna(автомат, 8 мест) или похожая в категории V8 - от 120$ в сутки(франшиза - 960$)</option>
-                                                        <option value="Category Y" >Citroen Jumpy(ручник, 9 мест)или похожая в категории Y - от 94$ в сутки(франшиза - 960$)</option>
+                            <option value="Category V" >Ford Galaxy V(автомат, 7 мест) или похожая в категории V - от 77$ в сутки(франшиза - 960$)</option>
+                            <option value="Category S" >Hyundai i800(ручник, 8 мест) или похожая в категории S - от 104$ в сутки(франшиза - 960$)</option>
+                            <option value="Category V8" >Toyota Sienna(автомат, 8 мест) или похожая в категории V8 - от 120$ в сутки(франшиза - 960$)</option>
+                            <option value="Category Y" >Citroen Jumpy(ручник, 9 мест)или похожая в категории Y - от 94$ в сутки(франшиза - 960$)</option>
 							<option value="Category Z" >Hyundai i800(автомат, 9 мест) или похожая в категории Z - от 131$ в сутки(франшиза - 960$)</option>
 <!--                                                        <option value="Category R" >Chevrolet Malibu или похожая в категории R - от 52$ в сутки</option>-->
-                                                        <option value="Category P" >Buick LaCrosse(автомат) или похожая в категории P - от 116$ в сутки(франшиза - 960$)</option>
+                            <option value="Category P" >Buick LaCrosse(автомат) или похожая в категории P - от 116$ в сутки(франшиза - 960$)</option>
 							<option value="Category K" >BMW 318i(автомат) или похожая в категории K - от 84$ в сутки(франшиза - 960$)</option>
 							<option value="Category W" >BMW i535(автомат) или похожая в категории W - от 155$ в сутки(франшиза - 960$)</option>
 							<option value="Category O" >Toyota Highlander(автомат) или похожая в категории O - от 174$ в сутки(франшиза - 960$)</option>
@@ -168,7 +168,7 @@
 
 	</div>
     <hr />
-    * Указанные цены соответствуют прейскуранту дилера компании ТРИФТИ для низкого сезона и значительно отличаются от расценок на сайте\отделении поставщика <br />
+    * Указанные цены соответствуют прейскуранту дилера компаний Thrifty/Dollar/Albar для низкого сезона и значительно отличаются от расценок на сайте\отделении поставщика <br />
     * Указанные цены ВКЛЮЧАЮТ обязательные страховки <br />
     * Указанные цены не включают НДС(от НДС освобождены только туристы имеющие в пасторте визу В2\В3 - обязательно предоставить при получении машины) <br />
     Часы работы отделений - аэропорт Бен Гурион 24\7, остальные отделения 8-18, пятница 8-13  <br /> 
